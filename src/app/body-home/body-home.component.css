@@ -1,0 +1,16 @@
+.mainBackgnd{
+   
+    background-image: url(/assets/img/chest-281251_1920.jpg);
+    background-image: url(./img/chest-281251_1920.jpg);
+    background-size: cover;
+    
+    height: 500px;
+
+    
+}
+.title-homeMain{
+    text-align: center;
+    
+}
+
+
