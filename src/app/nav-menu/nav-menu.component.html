@@ -8,7 +8,7 @@
             <h2 id="logotitulo">RestoredHouse</h2>
           </div>
           <div id="logoimgagem">
-            <img class="imglogo" src="./assets/logo/pedreiro.jpg" alt="">
+            <img class="imglogo" src="../../assets/logo/restoredHome.jpg" alt="">
           </div>
         </div>
   
@@ -20,26 +20,27 @@
       </button>
       <div class="navbar-collapse collapse d-sm-inline-flex justify-content-end " [ngClass]="{ show: isExpanded }">
         <ul class="navbar-nav flex-grow">
-          <li class="nav-item" [routerLinkActive]="['link-active']" [routerLinkActiveOptions]="{ exact: true }">
-            <a class="nav-link text-light " [routerLink]="['home']">Home</a>
+          <li class="nav-item  " [routerLinkActive]="['link-active']" [routerLinkActiveOptions]="{ exact: true }">
+            <a class="nav-link text-light t-font  " [routerLink]="['home']">Home</a>
           </li>
           <li class="nav-item" [routerLinkActive]="['link-active']">
-            <a class="nav-link text-light" [routerLink]="['/servico']">Serviço</a>
+            <a class="nav-link text-light t-font " [routerLink]="['/servico']">Serviço</a>
           </li>
           
           <li class="nav-item" [routerLinkActive]="['link-active']">
-            <a class="nav-link text-light" [routerLink]="['/quem-somos']">Quem somos</a>
+            <a class="nav-link text-light t-font" [routerLink]="['/quem-somos']">Quem somos</a>
           </li>
           <li class="nav-item" [routerLinkActive]="['link-active']">
-            <a class="nav-link text-light" [routerLink]="['/contatos']">Contatos</a>
+            <a class="nav-link text-light t-font" [routerLink]="['/contatos']">Contatos</a>
           </li>
           <li class="nav-item" [routerLinkActive]="['link-active']">
-            <a class="nav-link text-light" [routerLink]="['/trabalho']">Trabalhos realizados</a>
+            <a class="nav-link text-light t-font" [routerLink]="['/trabalho']">Trabalhos realizados</a>
           </li>
           <li class="nav-item" [routerLinkActive]="['link-active']">
-            <a class="nav-link text-light" [routerLink]="['/feedback']">Feedback</a>
+            <a class="nav-link text-light t-font" [routerLink]="['/feedback']">Feedback</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
+  

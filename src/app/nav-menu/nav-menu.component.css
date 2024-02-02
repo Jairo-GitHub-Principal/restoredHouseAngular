@@ -158,3 +158,35 @@ a.navbar-brand {
    
    
   }
+  @media (max-width: 600px) {
+    .t-font{
+      font-size: 60%;
+
+    }
+  }
+  @media (min-width: 600px) {
+    .t-font{
+      font-size: 80%;
+
+    }
+  }
+
+  @media (min-width: 800px) {
+    .t-font{
+      font-size: 90%;
+
+    }
+  }
+  @media (min-width: 1200px) {
+    .t-font{
+      font-size: 20px;
+      margin-right: 15px;
+    }
+  }
+
+  @media (min-width: 1600px) {
+    .t-font{
+      font-size: 25px;
+      margin-right: 20px;
+    }
+  }
