@@ -3,7 +3,9 @@
     <div class="container-fluid">
   
       
-        <div class="logoImgName">
+      <!-- id que possibiliita a navegação pro topo da pagina-->
+      
+        <div class="logoImgName " id="#pageTop">
           <div class="logoName">
             <h2 id="logotitulo">RestoredHouse</h2>
           </div>
@@ -21,23 +23,23 @@
       <div class="navbar-collapse collapse d-sm-inline-flex justify-content-end " [ngClass]="{ show: isExpanded }">
         <ul class="navbar-nav flex-grow">
           <li class="nav-item  " [routerLinkActive]="['link-active']" [routerLinkActiveOptions]="{ exact: true }">
-            <a class="nav-link text-light t-font  " [routerLink]="['home']">Home</a>
+            <a class="nav-link active    fontMenu  " style="font-weight: 600;" [routerLink]="['home']">Home</a>
           </li>
           <li class="nav-item" [routerLinkActive]="['link-active']">
-            <a class="nav-link text-light t-font " [routerLink]="['/servico']">Serviço</a>
+            <a class="nav-link  fontMenu " style="font-weight: 600;" [routerLink]="['/servico']">Serviço</a>
           </li>
           
           <li class="nav-item" [routerLinkActive]="['link-active']">
-            <a class="nav-link text-light t-font" [routerLink]="['/quem-somos']">Quem somos</a>
+            <a class="nav-link  fontMenu" style="font-weight: 600;" [routerLink]="['/quem-somos']">Quem somos</a>
           </li>
           <li class="nav-item" [routerLinkActive]="['link-active']">
-            <a class="nav-link text-light t-font" [routerLink]="['/contatos']">Contatos</a>
+            <a class="nav-link  fontMenu" style="font-weight: 600;" [routerLink]="['/contatos']">Contatos</a>
           </li>
           <li class="nav-item" [routerLinkActive]="['link-active']">
-            <a class="nav-link text-light t-font" [routerLink]="['/trabalho']">Trabalhos realizados</a>
+            <a class="nav-link  fontMenu" style="font-weight: 600;" [routerLink]="['/trabalho']">Trabalhos</a>
           </li>
           <li class="nav-item" [routerLinkActive]="['link-active']">
-            <a class="nav-link text-light t-font" [routerLink]="['/feedback']">Feedback</a>
+            <a class="nav-link  fontMenu" style="font-weight: 600;" [routerLink]="['/feedback']">Feedback</a>
           </li>
         </ul>
       </div>

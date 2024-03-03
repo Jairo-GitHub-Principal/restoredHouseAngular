@@ -7,186 +7,84 @@ a.navbar-brand {
     border: 0;
   }
   
-  html {
-    font-size: 14px;
-  }
-  .logImgName{
-    
-    border: solid 5px black;
-  }
-  #logoimgagem{
-    margin-right: 20px;
-    
   
+
+
+  /* LOGO E TITULO*/
+
+ 
+
+  .logoImgName{
+    display: flex;
+    flex-direction: row-reverse;
+     align-items: center;
+     
+}
+  #logoimgagem{
+    margin-right: 20px;  
   }
-  .imglogo{
+
+  .imglogo {
+    width: 100px;
+    height: 100px;
     border-radius: 50px;
     box-shadow: 0px 0px 10px 3px #e7c536;
-    
+  }
+
+  
+  #logoimgagem .imglogo{
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 10px 3px #e7c536;
+
+  }
+ 
+  #logotitulo{
+    font-size: 28px;
+    text-shadow: 0px -1px   orangered;
   }
   
+
+ 
+
+ 
+
+
+
   
   
-  /* tela de celular no modo retrato */
-  @media(max-width:575px){
-    #logoimgagem {
+
   
-        display: none;
-        
-    }
-  
-    
-  
-  }
-  
-  /*  smartphone landscape  ou paisagem  ___________________________________________________________________*/
-  
-  @media(min-width:575px){
-    
-    
-    /* logotipo */
+  @media(max-width:600px){
     #logotitulo{
       display: none;
-     
     }
-    .spaceLetra ul li{
-     display: flex;
-     flex-direction: row;
-  
-    }
-    
-   
-    #logoimgagem .imglogo {
-     
-        width: 100px;
-        height: 100px;
-       
-        
-       
-        
-  }
-    
-  
-  
-    
-  }
-  /*  tablet portrait retrato ______________________________________________________________________________________________ */
-  @media (min-width: 768px) {
-    html {
-      font-size: 16px;
-    }
-  
-    #logotitulo{
-      display:none;
-    }
-    #logoimgagem .imglogo {
-     
-        width: 100px;
-        height: 100px;
-        margin: 5px;
-        
-       
-        
-  }
-   .logoImgName{
-      display: flex;
-      flex-direction: row-reverse;
-       align-items: center;
-  }
-  
-  
-  
-  }
-  
-  .box-shadow {
-    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
-  }
-  
-  
-  
-  
-  #logo .img{
-    border-radius: 30px 30px;
-  }
-  
-  
-  @media(max-width:575px){
-    #logo img{
-    
-        display: none;
-       
-    }
-  
-  }
-  
-  
-  
-  
-  
-  /*  tablet landscape  ou paisagem */
-  @media(min-width:992px){
-    #logotitulo{
-      display:inline;
-      color:#f8af90 ;
+    .fontMenu{
+      font-size: 12px;
       
-      text-shadow: 0px  0px 3px rgb(118, 11, 11);
     }
+    
+       
   }
-  
-  /* pc ou  notebook landscape ou prtrait */
-  
-  @media(min-width:1200px){
-  
-    header{
-        height: 60px;
-    }
-    
-    /* logotipo */
-    #logo img{
-        
-        width: 228px;
-        height: 228px;
-        margin: 5px;
-    
-    }
-    
-    .img{
-        border:solid 1px black;
-        border-radius: 50%;
-    }
-  
-   
+
+  .text-menu{
+    color: red;
    
   }
-  @media (max-width: 600px) {
-    .t-font{
-      font-size: 60%;
-
-    }
+  a:active{
+    color:red;
   }
-  @media (min-width: 600px) {
-    .t-font{
-      font-size: 80%;
+ 
+  
+ 
+  
+ 
+ 
+  
+ 
 
-    }
-  }
+  
+  
 
-  @media (min-width: 800px) {
-    .t-font{
-      font-size: 90%;
-
-    }
-  }
-  @media (min-width: 1200px) {
-    .t-font{
-      font-size: 20px;
-      margin-right: 15px;
-    }
-  }
-
-  @media (min-width: 1600px) {
-    .t-font{
-      font-size: 25px;
-      margin-right: 20px;
-    }
-  }
+  
