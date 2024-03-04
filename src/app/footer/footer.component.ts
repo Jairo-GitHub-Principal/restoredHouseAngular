@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Route,Router,ActivatedRoute, NavigationEnd } from '@angular/router';
+import { ScrollTopService } from '../scroll-top.service';
 
 
 
@@ -11,17 +12,14 @@ import { Route,Router,ActivatedRoute, NavigationEnd } from '@angular/router';
 export class FooterComponent implements OnInit {
     currentUrl:string;
     rotaAtual:string
-  constructor(private router:Router) {
-   
-   }
+  // constructor(private router:Router) {   }
+  constructor(private scrollTopService: ScrollTopService) {}
+  scrollToTop(): void {
+    this.scrollTopService.scrollToTop();
+  }
 
   ngOnInit() {
-    // captura a rota atual, onde usaremos a mesma para a navegação para o topo da pagina
-    this.router.events.subscribe(event => {
-      if (event instanceof NavigationEnd) {
-        this.rotaAtual = event.url;
-      }
-    });
+   this.scrollToTop()
  
         
   }

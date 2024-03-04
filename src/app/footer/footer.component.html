@@ -64,9 +64,14 @@
    <!-- icone seta para cima navegação para o topo da pagina-->
   <div class="row col-sm-12 col-lg-12 justify-content-center text-center mt-5" id="paraCima">
      <div id="indicaParaCima" class="text-center">
-      <div class="nav-item  " [routerLinkActive]="['link-active']" [routerLinkActiveOptions]="{ exact: true }">
-        <a class="nav-link active    fontMenu  " style="font-weight: 600;" href='{{rotaAtual}}'><img width="10%" src="./assets/icon/simbolo-de-seta-para-cima-em-um-circulo.png" /></a>
+      
+     
+      <div class="nav-item  " >
+        <a  (click)="scrollToTop()" ><img width="10%" src="./assets/icon/simbolo-de-seta-para-cima-em-um-circulo.png" /></a>
       </div>
+      
+     
+    
      
     </div>
   </div>

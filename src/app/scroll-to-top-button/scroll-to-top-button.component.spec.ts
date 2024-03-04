@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
-import { RouterModule } from '@angular/router';
-import { NavMenuComponent } from './nav-menu.component';
 
-describe('NavMenuComponent', () => {
-  let component: NavMenuComponent;
-  let fixture: ComponentFixture<NavMenuComponent>;
+import { ScrollToTopButtonComponent } from './scroll-to-top-button.component';
+
+describe('ScrollToTopButtonComponent', () => {
+  let component: ScrollToTopButtonComponent;
+  let fixture: ComponentFixture<ScrollToTopButtonComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ NavMenuComponent ]
+      declarations: [ ScrollToTopButtonComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(NavMenuComponent);
+    fixture = TestBed.createComponent(ScrollToTopButtonComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

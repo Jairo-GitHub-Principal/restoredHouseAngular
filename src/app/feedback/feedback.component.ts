@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute, Router } from '@angular/router';
 
 @Component({
   selector: 'app-feedback',
@@ -6,10 +7,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./feedback.component.css']
 })
 export class FeedbackComponent implements OnInit {
-
-  constructor() { }
+page:string|null=null;
+  constructor(private route:ActivatedRoute,) { }
 
   ngOnInit() {
+    this.route.paramMap.subscribe(params => {
+      this.page = String( params.get("page"))}) 
   }
 
 }

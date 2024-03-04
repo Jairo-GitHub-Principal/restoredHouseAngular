@@ -1,48 +1,45 @@
 
 <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light " >
-    <div class="container-fluid">
-  
-      
-      <!-- id que possibiliita a navegação pro topo da pagina-->
-      
-        <div class="logoImgName " id="#pageTop">
-          <div class="logoName">
-            <h2 id="logotitulo">RestoredHouse</h2>
-          </div>
-          <div id="logoimgagem">
-            <img class="imglogo" src="../../assets/logo/restoredHome.jpg" alt="">
-          </div>
+  <div class="container-fluid">
+
+    
+      <div class="logoImgName">
+        <div class="logoName">
+          <h2 id="logotitulo">RestoredHouse</h2>
         </div>
-  
-     
-  
-      <button class="navbar-toggler " type="button" data-toggle="collapse" data-target=".navbar-collapse"
-        aria-label="Toggle navigation" [attr.aria-expanded]="isExpanded" (click)="toggle()">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="navbar-collapse collapse d-sm-inline-flex justify-content-end " [ngClass]="{ show: isExpanded }">
-        <ul class="navbar-nav flex-grow">
-          <li class="nav-item  " [routerLinkActive]="['link-active']" [routerLinkActiveOptions]="{ exact: true }">
-            <a class="nav-link active    fontMenu  " style="font-weight: 600;" [routerLink]="['home']">Home</a>
-          </li>
-          <li class="nav-item" [routerLinkActive]="['link-active']">
-            <a class="nav-link  fontMenu " style="font-weight: 600;" [routerLink]="['/servico']">Serviço</a>
-          </li>
-          
-          <li class="nav-item" [routerLinkActive]="['link-active']">
-            <a class="nav-link  fontMenu" style="font-weight: 600;" [routerLink]="['/quem-somos']">Quem somos</a>
-          </li>
-          <li class="nav-item" [routerLinkActive]="['link-active']">
-            <a class="nav-link  fontMenu" style="font-weight: 600;" [routerLink]="['/contatos']">Contatos</a>
-          </li>
-          <li class="nav-item" [routerLinkActive]="['link-active']">
-            <a class="nav-link  fontMenu" style="font-weight: 600;" [routerLink]="['/trabalho']">Trabalhos</a>
-          </li>
-          <li class="nav-item" [routerLinkActive]="['link-active']">
-            <a class="nav-link  fontMenu" style="font-weight: 600;" [routerLink]="['/feedback']">Feedback</a>
-          </li>
-        </ul>
+        <div id="logoimgagem">
+          <img class="imglogo" src="./assets/logo/pedreiro.jpg" alt="">
+        </div>
       </div>
+
+   
+
+    <button class="navbar-toggler " type="button" data-toggle="collapse" data-target=".navbar-collapse"
+      aria-label="Toggle navigation" >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="navbar-collapse collapse d-sm-inline-flex justify-content-end ">
+      <ul class="navbar-nav flex-grow">
+        <li class="nav-item" [routerLinkActive]="['link-active']" [routerLinkActiveOptions]="{ exact: true }">
+          <a class="nav-link text-light " [routerLink]="['home']">Home</a>
+        </li>
+        <li class="nav-item" [routerLinkActive]="['link-active']">
+          <a class="nav-link text-light" [routerLink]="['/servico']">Serviço</a>
+        </li>
+        
+        <li class="nav-item" [routerLinkActive]="['link-active']">
+          <a class="nav-link text-light" [routerLink]="['/quem-somos']">Quem somos</a>
+        </li>
+        <li class="nav-item" [routerLinkActive]="['link-active']">
+          <a class="nav-link text-light" [routerLink]="['/contatos']">Contatos</a>
+        </li>
+        <li class="nav-item" [routerLinkActive]="['link-active']">
+          <a class="nav-link text-light" [routerLink]="['/trabalho']">Trabalhos realizados</a>
+        </li>
+        <li class="nav-item" [routerLinkActive]="['link-active']">
+          <a class="nav-link text-light" [routerLink]="['/feedback']">Feedback</a>
+        </li>
+      </ul>
     </div>
-  </nav>
-  
+  </div>
+</nav>
