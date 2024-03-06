@@ -2,6 +2,7 @@ a.navbar-brand {
     white-space: normal;
     text-align: center;
     word-break: break-all;
+    font-weight:lighter;
   }
   nav{
     border: 0;
@@ -43,9 +44,12 @@ a.navbar-brand {
   #logotitulo{
     font-size: 28px;
     text-shadow: 0px -1px   orangered;
+    text-shadow: 0px -1px white;
+    
   }
   
-
+  
+  
  
 
  
@@ -61,21 +65,31 @@ a.navbar-brand {
       display: none;
     }
     .fontMenu{
-      font-size: 12px;
+      font-size: 10px;
       
+    }
+
+    .amburger{
+      box-shadow: 0px 0px 10px 5px white;
     }
     
        
   }
 
-  .text-menu{
-    color: red;
-   
+  @media(min-width:1024px){
+    #logotitulo{
+      font-size: 40px;
+      text-shadow: 1px 1px white;
+    }
   }
-  a:active{
-    color:red;
+
+  @media(min-width:1280px){
+    #logotitulo{
+      font-size: 50px;
+      text-shadow: 1px 1px white;
+      
+    }
   }
- 
   
  
   
