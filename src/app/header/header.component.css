@@ -1,29 +1,5 @@
-
-
-
-
-
-
-/* smartphone portrait retrato,
-vh == view heigth e vw == view width se eu classifico uma largura como 75vh == a altura do componente sera == 75% da altura da tela do navegador */
-.theHeather{
-   
-    /*background-color:#61685d;*/
-    /*background-image:url(./img/parede.jpg);*/
-    background-color: 	#c4b8b8;
-    
- }
-
- @media(max-width:667){
-    
-    
-    
-       
-  }
- 
- 
- 
- 
- 
- 
- 
+.imgStyle{
+    border-radius: 50px;
+    border: solid 3px grey;
+    box-shadow: 0px 0px 20px  rgb(56, 52, 52);
+}
