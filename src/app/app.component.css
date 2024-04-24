@@ -1,5 +1,35 @@
 .imgFundo{
-    background-image: url('../assets/img/banerHome3.jpg');
+    background-image: url('../assets/img/home/building-1727807.jpg');
+     /* background-image: url('../assets/img/home/backgroundPrincipal3.jpg'); */
+    /* background-image: url('../assets/img/home/backgroundPrincipal4.jpg'); */
+   /* background-image: url('../assets/img/home/backgroundPrincipal15.jpg'); */
+
+
+
+
     background-repeat: no-repeat;
     background-size: cover;
+    border: solid 1px red;
 }
+
+.bady-space-botton{
+    padding-bottom: 50px;
+}
+
+
+
+/* alxilio para o footer ficar posicionado na parte de baixo da pagina*/
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+  }
+
+
+  #content-wrap {
+    padding-bottom: 2.5rem;    /* altura do rodapé */
+  }
+
+  .afastar-footer-header{
+    
+  }

@@ -1,4 +1,8 @@
 
+footer{
+  background-color: black;
+  color: white;
+}
 .redesocial img{
     width: 50px;
     height: 50px;
@@ -7,5 +11,26 @@
 
 
 
+/* a partir desse ponto implementamos o codigo que faz o botão aparecer quando chegar no fim da pagina, esse dogigo depende do Js, na classe footer.component.ts*/
 
 
+
+.scroll-button {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 30px;
+   
+    color: white;
+    border: none;
+    border-radius: 50%;
+    
+    cursor: pointer;
+  }
+  
+  
+  
+
+  /* no codigo abaixo sera adicionado uma margem para para ajudar com espaço para o surjimento do button que navega para o topo da pagina*/
+
+ 

@@ -1,80 +1,86 @@
-<footer class="mt-5 pt-5">
-  <div class="row bg-secondary   justify-content-center p-3 border mt-5">
-    
-    
-    
+<footer class="row border-top border-bottom border-warning mt-1 mb-1">
 
-    <!--***************************************************-->
-
-    
-
-    <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex flex-column justify-content-center   text-center ">
-
-      <p>&#169; RestoredHouse</p>
-
-    </div>
-
-
- 
-      <!--redes socioais-->
-      <div class="col-sm-12 col-md-6 col-lg-8 col-xl-8     ">
-      <aside>
-
-        <div class="redesocial d-flex flex-row justify-content-around">
-
-          <a href="https://www.youtube.com/" target="_blank">
-            <img src="./assets/icon/youtube.png" alt="youtube">
-          </a>
-
-          <a href="https://www.linkedin.com/" target="_blank">
-            <img src="./assets/icon/linkedin.png" alt="linkedin">
-          </a>
-          <a href="https://web.facebook.com/?_rdc=1&_rdr" target="_blank">
-            <img src="./assets/icon/facebook.png" alt="facebook">
-          </a>
-          <a href="https://www.instagram.com/" target="_blank">
-            <img src="./assets/icon/instagram.png" alt="instagram">
-          </a>
-          <a href="https://twitter.com/?lang=pt-br" target="_blank">
-            <img src="./assets/icon/twitter.png" alt="tweeter atual X">
-          </a>
-
-          <a href="https://api.whatsapp.com/send?phone=11969634216" target="_blank">
-            <img src="./assets/icon/whatsapp2.png" alt="whatsapp">
-            <!--<p>(11) 01234-5678_Numero para o qual sera direcionado a ligação ou envio de msg </p>-->
-          </a>
+  <!--***************************************************-->
+  <div class="col-12 p-2 ">
+    <div class="row align-items-center ">
+      <div class="col-sm-12 col-md-4  p-2">
+        <div class="d-flex justify-content-center ">
+          <h5>&#169; RestoredHouse</h5>
         </div>
+      </div>
 
-      </aside>
+
+
+      <!--icones e acesso a redes socioais-->
+
+      <div class="col-sm-12 col-md-8 p-2 text-center ">
+        <div class="d-flex justify-content-evenly  align-items-center p-2">
+
+          <a href="https://www.youtube.com" target="_blank">
+            <img class="w-25" src="./assets/icon/youtube.png" alt="youtube">
+          </a>
+
+          <a href="https://www.facebook.com" target="_blank">
+            <img class="w-25" src="./assets/icon/facebook.png" alt="facebook">
+          </a>
+          <a href="https://www.instagram.com" target="_blank">
+            <img class="w-25" src="./assets/icon/instagram.png" alt="instagram">
+          </a>
+          <a href="https://twitter.com" target="_blank">
+            <img class="w-25" src="./assets/icon/twitter.png" alt="tweeter atual X">
+          </a>
+
+          <!--<p>(11) 01234-5678_Numero para o qual sera direcionado a ligação ou envio de msg </p>-->
+          <!-- <a href="https://api.whatsapp.com/send?phone=11969634216" target="_blank">
+            <img src="./assets/icon/whatsapp2.png" alt="whatsapp">       
+          </a>-->
+        </div>
+      </div>
+      <!--***********************************************-->
     </div>
- 
-    <!--***********************************************-->
-
-
-
   </div>
   <!-- &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&-->
   <!-- whatsApp flutuante na pagina-->
 
-  <div class="row">
-    <app-whats-app-contato></app-whats-app-contato>
-  </div>
-
-
-   <!-- icone seta para cima navegação para o topo da pagina-->
-  <div class="row col-sm-12 col-lg-12 justify-content-center text-center mt-5" id="paraCima">
-     <div id="indicaParaCima" class="text-center">
-      
-     
-      <div class="nav-item  " >
-        <a  (click)="scrollToTop()" ><img width="10%" src="./assets/icon/simbolo-de-seta-para-cima-em-um-circulo.png" /></a>
-      </div>
-      
-     
-    
-     
+  <!--***************************************************-->
+  <div class="col-12">
+    <div class="row">
+      <app-whats-app-contato></app-whats-app-contato>
     </div>
   </div>
 
 
 </footer>
+
+
+  <div class="row pb-5">
+    <div class="col-4"> </div>
+    <div class="col-4 mt-5 mb-5   d-flex justify-content-evenly   ">
+     
+        <button class=" scroll-button   " type="button " *ngIf="showBackToTopButton">
+          <a (click)="scrollToTop()">
+            <img class="w-100 " src="../../assets/icon/pra-cima2.png" />
+          </a>
+        </button>
+     
+    </div>
+    <div class="col-4 "></div>
+  </div>
+
+
+
+<!-- <div class="container-fluid">
+  <div class="row">
+    <div class="col-4  "> </div>
+    <div class="col-4 mt-5 mb-5  d-flex justify-content-evenly  flex-direction-row  ">
+     
+        <button class=" scroll-button   " type="button " *ngIf="showBackToTopButton">
+          <a (click)="scrollToTop()">
+            <img class="w-100 " src="../../assets/icon/pra-cima2.png" />
+          </a>
+        </button>
+     
+    </div>
+    <div class="col-4 "></div>
+  </div>
+</div> -->
