@@ -8,6 +8,7 @@ import { Router } from '@angular/router';
 })
 export class HeaderComponent implements OnInit {
   currentUrl:string;
+
   constructor(private router:Router) { }
 
   ngOnInit() {

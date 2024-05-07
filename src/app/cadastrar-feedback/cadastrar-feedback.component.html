@@ -1,0 +1,49 @@
+<main class="rows">
+    <h2>Cadastrar Feedback</h2>
+
+    <div>
+        <form (ngSubmit)="cadastrarFeedback()">
+            <label>Título:</label>
+            <input type="text" [(ngModel)]="titulo" name="titulo" required>
+
+            <label>Apresentação (3 linhas):</label>
+            <textarea [(ngModel)]="apresentacao" name="apresentacao" rows="3" maxlength="150" required></textarea>
+
+            <label>Detalhes:</label>
+            <textarea [(ngModel)]="detalhes" name="detalhes" rows="5" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</main>
+
+<div>
+    <h1>Cadastrar Feedback</h1>
+    <form>
+      <div>
+        <label for="imagem">Imagem:</label>
+        <input type="file" id="imagem" name="imagem">
+      </div>
+      <div>
+        <label for="titulo">Título do Feedback:</label>
+        <input type="text" id="titulo" name="titulo">
+      </div>
+      <div>
+        <label for="apresentacao">Apresentação do Feedback:</label>
+        <textarea id="apresentacao" name="apresentacao" rows="4"></textarea>
+      </div>
+      <div>
+        <label for="texto">Texto do Feedback:</label>
+        <textarea id="texto" name="texto" rows="10"></textarea>
+      </div>
+      <div>
+        <label for="link">Link do YouTube ou Instagram:</label>
+        <input type="text" id="link" name="link">
+      </div>
+      <button type="submit">Salvar Feedback</button>
+    </form>
+  </div>
+
+
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/DpU4u3lQuas?si=tUqjHDobc0EB6ey_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+

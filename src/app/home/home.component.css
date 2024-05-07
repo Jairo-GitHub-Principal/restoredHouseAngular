@@ -1,6 +1,17 @@
+/*fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap');
+
 .imgmainhome {
     border-radius: 50px;
     border: solid 1px black;
     box-shadow: 0px 0px 5px 1px rgb(11, 6, 6);
 }
 
+
+.title-home{
+    font-family: "Sedan SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-style: italic;
+
+}

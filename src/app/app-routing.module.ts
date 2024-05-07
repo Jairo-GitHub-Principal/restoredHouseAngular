@@ -1,5 +1,6 @@
 import { NgModule,OnInit } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { CadastrarFeedbackComponent } from './cadastrar-feedback/cadastrar-feedback.component';
 import { ContatosComponent } from './contatos/contatos.component';
 import { FeedbackComponent } from './feedback/feedback.component';
 import { HomeComponent } from './home/home.component';
@@ -16,6 +17,7 @@ const routes: Routes = [
 {path: 'contatos',component:ContatosComponent},
 {path: 'trabalho',component:TrabalhosComponent},
 {path: 'feedback',component:FeedbackComponent},
+{path: 'cadastrarFeedback', component:CadastrarFeedbackComponent}
 
 ];
 

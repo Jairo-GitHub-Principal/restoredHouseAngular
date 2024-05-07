@@ -1,3 +1,6 @@
+/*fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap');
+
 #contato{
     display: flex;
     flex-direction: column;

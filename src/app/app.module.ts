@@ -15,6 +15,8 @@ import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { WhatsAppContatoComponent } from './whats-app-contato/whats-app-contato.component';
 import { CarrocelHeaderComponent } from './carrocel-header/carrocel-header.component';
+import { CadastrarFeedbackComponent } from './cadastrar-feedback/cadastrar-feedback.component';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -32,12 +34,14 @@ import { CarrocelHeaderComponent } from './carrocel-header/carrocel-header.compo
     FeedbackComponent,
     WhatsAppContatoComponent,
     CarrocelHeaderComponent,
+    CadastrarFeedbackComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
     RouterModule,
+    HttpClientModule 
     
    
   ],

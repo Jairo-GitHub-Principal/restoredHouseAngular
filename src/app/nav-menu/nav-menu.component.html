@@ -1,13 +1,22 @@
 
+<!-- a classe d-flex align-items-start foi adicionada pra fixar o logotitulo no topo quando abrir o menu aburguer drop-down-->
+<nav
+  class=" row d-flex align-items-start navbar navbar-expand-lg navbar-light bg-light row  border-top border-bottom border-warning mt-1 text-center p-1">
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light row  border-top border-bottom border-warning mt-1 text-center p-1">
-  
-    <div class="col-12 m-1">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+  <div class="col-3  d-flex flex-column align-items-">
+    <h2 id="logo-titulo">{{logoTitulo}}</h2>
+   
+  </div>
+  <div class="col-9 ">
+    <div class="col-12 m-1 text-end">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse justify-content-end " id="navbarNav">
-        <ul class="navbar-nav">
+
+      <div class="collapse navbar-collapse justify-content-end    " id="navbarNav">
+        <ul class="navbar-nav m-1">
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" routerLink='home'>Home</a>
           </li>
@@ -15,18 +24,20 @@
             <a class="nav-link" routerLink='/servico'>Serviço</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" routerLink = "/quem-somos">Quem Somos</a>
+            <a class="nav-link" routerLink="/quem-somos">Quem Somos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" routerLink = "/contatos">Contatos</a>
+            <a class="nav-link" routerLink="/contatos">Contatos</a>
           </li>
           <li class="nav-item ">
-                <a class="nav-link" routerLink="/trabalho">Trabalhos realizados</a>
+            <a class="nav-link" routerLink="/trabalho">Trabalhos realizados</a>
           </li>
           <li class="nav-item ">
             <a class="nav-link" routerLink="/feedback">Feedback</a>
-      </li>
+          </li>
         </ul>
+
       </div>
     </div>
-  </nav>
+  </div>
+</nav>

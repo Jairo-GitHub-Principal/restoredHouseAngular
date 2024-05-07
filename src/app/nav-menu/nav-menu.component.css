@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap');
+
+
+#logo-titulo{
+    font-family: "Sedan SC", serif;
+  font-weight: 400;
+  font-style: normal;
+      
+}
+
+
+/* max-width:*/
+@media (max-width: 576px) {
+
+    .titulo-do-header{
+        display: none;
+    }
+
+    .imgStyle{
+        display: none;
+    }
+
+
+   
+ }
+
+ /* min-width:*/
