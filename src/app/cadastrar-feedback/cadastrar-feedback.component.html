@@ -1,49 +1,39 @@
-<main class="rows">
-    <h2>Cadastrar Feedback</h2>
 
-    <div>
-        <form (ngSubmit)="cadastrarFeedback()">
-            <label>Título:</label>
-            <input type="text" [(ngModel)]="titulo" name="titulo" required>
+<main class="row justify-content-center p-5">
+    <h1 class="text-center">Cadastrar Feedback</h1>
+    <form class=" g-3 form-control  text-center  large-cadastro-feedback">
+      
+      <h4>Informações para o card</h4>
+      <div class="d-grid m-1">
+        <input [(ngModel)]="feedbackData.imagemcard" type="text" id="imagem" name="imagem" placeholder="Url da imagem do card do feedBack">
+      </div>
+      
+      <div class="d-grid m-1">
+         <input [(ngModel)]="feedbackData.titulo" type="text" id="titulo" name="titulo" placeholder="Título do card do Feedback">
+      </div>
+      
+      <div class="d-grid m-1">
+        <textarea [(ngModel)]="feedbackData.textodocard" id="apresentacao" name="apresentacao" rows="4" placeholder="texto de apresentação do feedBack para o card"></textarea>
+      </div>
 
-            <label>Apresentação (3 linhas):</label>
-            <textarea [(ngModel)]="apresentacao" name="apresentacao" rows="3" maxlength="150" required></textarea>
+      <!-- a partir daqui são os dados do modal-->
 
-            <label>Detalhes:</label>
-            <textarea [(ngModel)]="detalhes" name="detalhes" rows="5" required></textarea>
-
-            <button type="submit">Enviar</button>
-        </form>
-    </div>
-</main>
-
-<div>
-    <h1>Cadastrar Feedback</h1>
-    <form>
-      <div>
-        <label for="imagem">Imagem:</label>
-        <input type="file" id="imagem" name="imagem">
+      <h4>Informações para o modal</h4>
+      <div class="d-grid m-1">
+        <input [(ngModel)]="feedbackData.titulomodal" type="text" id="tituloModal" name="tituloModal" placeholder="Título do Feedback no  modal">
+     </div>
+      <div class="d-grid m-1">
+         <textarea  [(ngModel)]="feedbackData.textcardmodal" id="texto" name="texto" rows="10" placeholder="Texto de feedBack para o modal"></textarea>
       </div>
-      <div>
-        <label for="titulo">Título do Feedback:</label>
-        <input type="text" id="titulo" name="titulo">
+      <div class="d-grid m-1">
+        <input [(ngModel)]="feedbackData.imagemcardmodalurl" type="text" id="linkImagem" name="linkImagem" placeholder="Url para imagem no modal">
       </div>
-      <div>
-        <label for="apresentacao">Apresentação do Feedback:</label>
-        <textarea id="apresentacao" name="apresentacao" rows="4"></textarea>
+      <div class="d-grid m-1">
+        <input [(ngModel)]="feedbackData.urlvideo" type="text" id="link" name="link" placeholder="Url para encorporar video no modal">
       </div>
-      <div>
-        <label for="texto">Texto do Feedback:</label>
-        <textarea id="texto" name="texto" rows="10"></textarea>
-      </div>
-      <div>
-        <label for="link">Link do YouTube ou Instagram:</label>
-        <input type="text" id="link" name="link">
-      </div>
-      <button type="submit">Salvar Feedback</button>
+      <button type="submit" (click)="cadastrarFeedback()" class="btn btn-primary m-2">Salvar Feedback</button>
     </form>
-  </div>
+  </main>
 
 
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/DpU4u3lQuas?si=tUqjHDobc0EB6ey_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 

@@ -9,6 +9,28 @@ app.use(express.json());
 
 
 
+// Rota para inserir novo feedback
+app.post('/feedback', (req, res) => {
+  const { titulo, textodocard, imagemcard, titulomodal, textcardmodal, imagemcardmodalurl, urlvideo } = req.body;
+
+  if (!titulo || !textodocard || !imagemcard || !titulomodal || !textcardmodal || !imagemcardmodalurl || !urlvideo) {
+    res.status(400).json({ error: 'Todos os campos devem ser fornecidos.' });
+    return;
+  }
+
+
+  const sql = 'INSERT INTO feedback (titulo, textodocard, imagemcard, titulomodal, textcardmodal, imagemcardmodalurl, urlvideo) VALUES (?, ?, ?, ?, ?, ?, ?)';
+  connection.query(sql, [titulo, textodocard, imagemcard, titulomodal, textcardmodal, imagemcardmodalurl, urlvideo], (err, results) => {
+    if (err) {
+      console.error('Erro ao inserir feedback:', err);
+      res.status(500).json({ error: 'Erro ao inserir feedback.' });
+      return;
+    }
+    res.status(201).json({ message: 'Feedback inserido com sucesso!' });
+  });
+});
+
+
 
 
   // Rota para obter todos os feedbacks
@@ -22,6 +44,9 @@ app.use(express.json());
         res.status(500).json({ error: 'Erro ao recuperar feedback.' });
         return;
       }
+
+
+
       res.status(200).json(results);
     });
   });

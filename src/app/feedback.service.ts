@@ -18,6 +18,11 @@ export class FeedbackService {
     return this.http.get<any[]>(`${this.baseUrl}/feedback`);
  
   }
+
+  enviarFeedback(feedbackData:any ): Observable<any> {
+    console.log('Enviando solicitação HTTP para cadastrar feedbacks...');
+    return this.http.post<any>(`${this.baseUrl}/feedback`, feedbackData);
+  }
   
   
 

@@ -1,32 +1,32 @@
 <main class="row text-center">
 
     <div class="card-body">
-        <h3 class="card-title"> Acompanhe o feedBack de nossos clientes </h3>
-       
+        <h2 class="card-title title-home"> Acompanhe o feedBack de nossos clientes </h2>
+
     </div>
-    
-    <section class="row justify-content-center">
 
-                                           
-        
-
-        <div class="card p-2 m-1 mb-5" style="width: 18rem;"  *ngFor="let item of feedbacks;let i = index">
-            <img height="200rem" [src]="item.imagemcard"
-                class="card-img-top" alt="...">
-            <div class="card-body">
+    <section class="row justify-content-evenly ">
+        <div class="card p-2 m-1 mb-5  " style="width: 18rem;"
+            *ngFor="let item of feedbacks;let i = index">
+            <div>
+                <img height="200rem" [src]="item.imagemcard" class="card-img-top" alt="...">
+            </div>
+            <div class="card-body text-start d-flex flex-column">
                 <h5 class="card-title">{{item.titulo}}</h5>
-                <p class="card-text">{{item.textodocard}}</p>
+                <p class="card-text text-start">{{item.textodocard}}</p>
 
-                
+
                 <!-- chama o modal-->
-                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                    [attr.data-bs-target]="chamaID(feedbackidname,item.id)">
-                    veja mais
-                </button>
-            
+                <div class=" mt-auto ">
+                    <button type="button" class="btn btn-primary w-100" data-bs-toggle="modal"
+                        [attr.data-bs-target]="chamaID(feedbackidname,item.id)">
+                        veja mais
+                    </button>
+                </div>
 
-                <div class="modal fade" [id]="declaraID(feedbackidname,item.id)" data-bs-backdrop="static" data-bs-keyboard="false"
-                    tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+
+                <div class="modal fade" [id]="declaraID(feedbackidname,item.id)" data-bs-backdrop="static"
+                    data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                     <div class="modal-dialog">
                         <div class="modal-content">
                             <div class="modal-header">
@@ -39,29 +39,28 @@
                                     {{item.textcardmodal}}
                                 </p>
                                 <div>
-                                <img width="100%" [src]="item.imagemcardmodalurl">
-                            </div>
-                                
-                               
-                                
-                                
-                               
-                               <div class="mt-5 mb-5">
-                                <!-- para conseguir exibir o ifame do video, foi nescessario usar a biblioteca DomSanitizer, 
+                                    <img width="100%" [src]="item.imagemcardmodalurl">
+                                </div>
+
+
+
+
+
+                                <div class="mt-5 mb-5">
+                                    <!-- para conseguir exibir o ifame do video, foi nescessario usar a biblioteca DomSanitizer, 
                                  para chamar o metodo bypassSecurityTrustResourceUrl para desativar a sanitização do angular para 
                                  forçar o angular a confiar na propriedade urlvideo e exibi-lo no template 
                                 obs: até agora do funcionol com links do youtube-->
-                                <iframe class="w-100" [height]="300" [src]="item.urlvideo" frameborder="0"></iframe>
-                                
-                                
-                                    
-                            </div>
-                                
-                                
+                                    <iframe class="w-100" [height]="300" [src]="item.urlvideo" frameborder="0"></iframe>
+
+
+
+                                </div>
+
+
                             </div>
                             <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary"
-                                    data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
 
                             </div>
                         </div>
@@ -71,15 +70,6 @@
 
             </div>
         </div>
-        
-
-                                        
-        
-
-
-
-          
-
 
     </section>
 </main>
