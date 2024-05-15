@@ -4,6 +4,13 @@ const connection = require('./database');
 const app = express();
 const port = 3000;
 
+// configuração  do cabeçalho "Permissions-Polyce"
+app.use((req, res, next) => {
+  res.setHeader('Permissions-Policy', 'accelerometer=(), camera=(), microphone=(), geolocation=(), gyroscope=(), magnetometer=(), payment=(), usb=()');
+  next();
+});
+
+
 app.use(cors());
 app.use(express.json());
 
@@ -11,13 +18,14 @@ app.use(express.json());
 
 // Rota para inserir novo feedback
 app.post('/feedback', (req, res) => {
+  console.log("informações de cadastro chegando no servidor com sucesso");
+
   const { titulo, textodocard, imagemcard, titulomodal, textcardmodal, imagemcardmodalurl, urlvideo } = req.body;
 
   if (!titulo || !textodocard || !imagemcard || !titulomodal || !textcardmodal || !imagemcardmodalurl || !urlvideo) {
     res.status(400).json({ error: 'Todos os campos devem ser fornecidos.' });
     return;
   }
-
 
   const sql = 'INSERT INTO feedback (titulo, textodocard, imagemcard, titulomodal, textcardmodal, imagemcardmodalurl, urlvideo) VALUES (?, ?, ?, ?, ?, ?, ?)';
   connection.query(sql, [titulo, textodocard, imagemcard, titulomodal, textcardmodal, imagemcardmodalurl, urlvideo], (err, results) => {
@@ -50,6 +58,24 @@ app.post('/feedback', (req, res) => {
       res.status(200).json(results);
     });
   });
+
+
+ // Rota para deletar um feedback
+app.delete('/feedback/:id', (req, res) => {
+  const feedbackId = req.params.id;
+
+  const sql = 'DELETE FROM `feedback` WHERE id = ?';
+  connection.query(sql, [feedbackId], (err, results) => {
+    if (err) {
+      console.error('Erro ao excluir feedback:', err);
+      res.status(500).json({ error: 'Erro ao excluir feedback.' });
+      return;
+    }
+    res.status(200).json({ message: 'Feedback excluído com sucesso!' });
+  });
+});
+
+  
 
 
 // Rota de exemplo

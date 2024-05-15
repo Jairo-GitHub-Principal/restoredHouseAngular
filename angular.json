@@ -64,7 +64,14 @@
             "production": {
               "browserTarget": "restoredHouse:build:production"
             }
+          },
+          "express": {
+            "browserTarget": "restoredHouse:build",
+            "externalServer": true,
+            "servePath": "./"
           }
+
+
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",

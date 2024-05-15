@@ -17,6 +17,10 @@ import { WhatsAppContatoComponent } from './whats-app-contato/whats-app-contato.
 import { CarrocelHeaderComponent } from './carrocel-header/carrocel-header.component';
 import { CadastrarFeedbackComponent } from './cadastrar-feedback/cadastrar-feedback.component';
 import { HttpClientModule } from '@angular/common/http';
+import { GerenciarFeedbackComponent } from './gerenciar-feedback/gerenciar-feedback.component';
+import { EditarFeedbackComponent } from './editar-feedback/editar-feedback.component';
+import { EditarDeletarFeedBackComponent } from './editar-deletar-feed-back/editar-deletar-feed-back.component';
+import { ControleSessaoComponent } from './controle-sessao/controle-sessao.component';
 
 
 @NgModule({
@@ -24,8 +28,7 @@ import { HttpClientModule } from '@angular/common/http';
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    
-     ContatosComponent,
+    ContatosComponent,
     HomeComponent,
     NavMenuComponent,
     QuemSomosComponent,
@@ -35,6 +38,10 @@ import { HttpClientModule } from '@angular/common/http';
     WhatsAppContatoComponent,
     CarrocelHeaderComponent,
     CadastrarFeedbackComponent,
+    GerenciarFeedbackComponent,
+    EditarFeedbackComponent,
+    EditarDeletarFeedBackComponent,
+    ControleSessaoComponent,
   ],
   imports: [
     BrowserModule,
