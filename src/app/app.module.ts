@@ -20,8 +20,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { GerenciarFeedbackComponent } from './gerenciar-feedback/gerenciar-feedback.component';
 import { EditarFeedbackComponent } from './editar-feedback/editar-feedback.component';
 import { EditarDeletarFeedBackComponent } from './editar-deletar-feed-back/editar-deletar-feed-back.component';
-import { ControleSessaoComponent } from './controle-sessao/controle-sessao.component';
-
+import { AuthComponentComponent } from './auth-component/auth-component.component';
 
 @NgModule({
   declarations: [
@@ -41,7 +40,7 @@ import { ControleSessaoComponent } from './controle-sessao/controle-sessao.compo
     GerenciarFeedbackComponent,
     EditarFeedbackComponent,
     EditarDeletarFeedBackComponent,
-    ControleSessaoComponent,
+    AuthComponentComponent
   ],
   imports: [
     BrowserModule,
