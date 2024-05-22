@@ -1,39 +1,49 @@
-
 <main class="row justify-content-center p-5">
-    <h1 class="text-center">Cadastrar Feedback</h1>
-    <form class=" g-3 form-control  text-center  large-cadastro-feedback">
-      
-      <h4>Informações para o card</h4>
-      <div class="d-grid m-1">
-        <input [(ngModel)]="feedbackData.imagemcard" type="text" id="imagem" name="imagem" placeholder="Url da imagem do card do feedBack">
-      </div>
-      
-      <div class="d-grid m-1">
-         <input [(ngModel)]="feedbackData.titulo" type="text" id="titulo" name="titulo" placeholder="Título do card do Feedback">
-      </div>
-      
-      <div class="d-grid m-1">
-        <textarea [(ngModel)]="feedbackData.textodocard" id="apresentacao" name="apresentacao" rows="4" placeholder="texto de apresentação do feedBack para o card"></textarea>
-      </div>
+  <div class="d-grid gap-2">
+    <button class="btn btn-primary m-1" (click)="finishinSection()"> Enserrar Sessão para evitar que alguem não
+      autorizado faça mudanças em feedback</button>
+  </div>
+  <div class="d-grid gap-2" >
+    <button class="btn btn-primary m-1" routerLink="/editar-feedback" > Excluir Feedback</button>
+</div>
+  <h1 class="text-center">Cadastrar Feedback</h1>
+  <form class=" g-3 form-control  text-center  large-cadastro-feedback">
 
-      <!-- a partir daqui são os dados do modal-->
+    <h4>Informações para o card</h4>
+    <div class="d-grid m-1">
+      <input [(ngModel)]="feedbackData.imagemcard" type="text" id="imagem" name="imagem"
+        placeholder="Url da imagem do card do feedBack">
+    </div>
 
-      <h4>Informações para o modal</h4>
-      <div class="d-grid m-1">
-        <input [(ngModel)]="feedbackData.titulomodal" type="text" id="tituloModal" name="tituloModal" placeholder="Título do Feedback no  modal">
-     </div>
-      <div class="d-grid m-1">
-         <textarea  [(ngModel)]="feedbackData.textcardmodal" id="texto" name="texto" rows="10" placeholder="Texto de feedBack para o modal"></textarea>
-      </div>
-      <div class="d-grid m-1">
-        <input [(ngModel)]="feedbackData.imagemcardmodalurl" type="text" id="linkImagem" name="linkImagem" placeholder="Url para imagem no modal">
-      </div>
-      <div class="d-grid m-1">
-        <input [(ngModel)]="feedbackData.urlvideo" type="text" id="link" name="link" placeholder="Url para encorporar video no modal">
-      </div>
-      <button type="submit" (click)="cadastrarFeedback()" class="btn btn-primary m-2">Salvar Feedback</button>
-    </form>
-  </main>
+    <div class="d-grid m-1">
+      <input [(ngModel)]="feedbackData.titulo" type="text" id="titulo" name="titulo"
+        placeholder="Título do card do Feedback">
+    </div>
 
+    <div class="d-grid m-1">
+      <textarea [(ngModel)]="feedbackData.textodocard" id="apresentacao" name="apresentacao" rows="4"
+        placeholder="texto de apresentação do feedBack para o card"></textarea>
+    </div>
 
+    <!-- a partir daqui são os dados do modal-->
 
+    <h4>Informações para o modal</h4>
+    <div class="d-grid m-1">
+      <input [(ngModel)]="feedbackData.titulomodal" type="text" id="tituloModal" name="tituloModal"
+        placeholder="Título do Feedback no  modal">
+    </div>
+    <div class="d-grid m-1">
+      <textarea [(ngModel)]="feedbackData.textcardmodal" id="texto" name="texto" rows="10"
+        placeholder="Texto de feedBack para o modal"></textarea>
+    </div>
+    <div class="d-grid m-1">
+      <input [(ngModel)]="feedbackData.imagemcardmodalurl" type="text" id="linkImagem" name="linkImagem"
+        placeholder="Url para imagem no modal">
+    </div>
+    <div class="d-grid m-1">
+      <input [(ngModel)]="feedbackData.urlvideo" type="text" id="link" name="link"
+        placeholder="Url para encorporar video no modal">
+    </div>
+    <button type="submit" (click)="cadastrarFeedback()" class="btn btn-primary m-2">Salvar Feedback</button>
+  </form>
+</main>

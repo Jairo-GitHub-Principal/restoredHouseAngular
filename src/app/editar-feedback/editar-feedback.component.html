@@ -1,14 +1,18 @@
-
 <main class="row text-center">
 
     <div class="card-body">
-        <h2 class="card-title title-home"> Acompanhe o feedBack de nossos clientes </h2>
-
+        <h2 class="card-title title-home"> Cadastrar ou Excluir feedbacks </h2>
+        <div class="d-grid gap-2">
+            <button class="btn btn-primary m-1" (click)="finishinSection()"> Enserrar Sessão para evitar que alguem não
+                autorizado faça mudanças em feedback</button>
+        </div>
+        <div class="d-grid gap-2" >
+            <button class="btn btn-primary m-1" routerLink="/cadastrar-feedback" > Cadastrar Feedback</button>
+        </div>
     </div>
 
     <section class="row justify-content-evenly ">
-        <div class="card p-2 m-1 mb-5  " style="width: 18rem;"
-            *ngFor="let item of feedbacks;let i = index">
+        <div class="card p-2 m-1 mb-5  " style="width: 18rem;" *ngFor="let item of feedbacks;let i = index">
             <div>
                 <img height="200rem" [src]="item.imagemcard" class="card-img-top" alt="...">
             </div>
@@ -73,11 +77,13 @@
             <button (click)="editarFeedback(item.id)">Editar</button>
             <button (click)="excluirFeedback(item.id)">Excluir</button>
 
-            <div><h1>ID == {{item.id}}</h1></div>
+            <div>
+                <h1>ID == {{item.id}}</h1>
+            </div>
         </div>
 
 
-       
+
 
     </section>
 </main>

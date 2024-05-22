@@ -3,6 +3,7 @@ import { stringify } from 'querystring';
 import { FeedbackService } from '../feedback.service';
 import { DomSanitizer } from '@angular/platform-browser';
 import { Feedback } from 'src/models/feedback.model';
+import { AuthService } from '../auth.service';
 
 
 @Component({
@@ -23,6 +24,7 @@ export class EditarFeedbackComponent implements OnInit {
   constructor(
     private feedbackService: FeedbackService,
     private sanitizer: DomSanitizer,
+    private authService: AuthService
 
     
     ) { }
@@ -97,19 +99,14 @@ export class EditarFeedbackComponent implements OnInit {
       );
     }
   }
+
+   finishinSection(){
+        this.authService.logout();
+   }
   
 
 
-  // excluirFeedback(id: string): void {
-   
-  //   console.log("id chegando no metodo excluirFeedback editar-feedback.comonent", id);
-  //   if (confirm('Tem certeza que deseja excluir este feedback?')) {
-  //     this.feedbackService.deleteFeedback(id).subscribe(() => {
-  //       // Remover o feedback da lista após a exclusão
-  //       this.feedbacks = this.feedbacks.filter(feedback => feedback.id !== id);
-  //     });
-  //   }
-  // }
+  
 
   
 
@@ -117,33 +114,3 @@ export class EditarFeedbackComponent implements OnInit {
 }
 
 
-/**
- * 
- * 
- *  feedback:Feedback;
-  id:any;
-  constructor(
-    private route:ActivatedRoute,
-    private router:Router,
-    private feedbackService: FeedbackService
-  ) { }
-
-  ngOnInit():void {
-    this.id = this.route.snapshot.params['id'];
-    this.carregarFeedback();
-  }
-
-  carregarFeedback():void{
-    this.feedbackService.getFeedbackforID(this.id).subscribe((data:Feedback)=>{
-      this.feedback = data;
-    });
-  }
-
-  salvarEdicao():void{
-    this.feedbackService.updateFeedback(this.id, this.feedback).subscribe(()=>{
-      this.router.navigate(['/editar-feedback']); // a url aqui dentro, ela lista os fidbacks e eu escolho se edito ou deleto
-    })
-  }
- * 
- * 
- */

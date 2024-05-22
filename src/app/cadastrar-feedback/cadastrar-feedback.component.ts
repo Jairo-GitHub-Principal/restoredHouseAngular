@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { AuthService } from '../auth.service';
 import { FeedbackService } from "../feedback.service";
 
 
@@ -20,7 +21,7 @@ export class CadastrarFeedbackComponent implements OnInit {
     imagemcardmodalurl: '',
     urlvideo: ''
   };
-  constructor(private feedbackService:FeedbackService) { }
+  constructor(private feedbackService:FeedbackService, private authService: AuthService) { }
 
   ngOnInit() {
   }
@@ -53,6 +54,11 @@ export class CadastrarFeedbackComponent implements OnInit {
       imagemcardmodalurl: '',
       urlvideo: ''
     };
+  }
+
+
+  finishinSection(){
+    this.authService.logout();
   }
 
 }

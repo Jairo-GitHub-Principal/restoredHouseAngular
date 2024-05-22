@@ -19,8 +19,9 @@ import { CadastrarFeedbackComponent } from './cadastrar-feedback/cadastrar-feedb
 import { HttpClientModule } from '@angular/common/http';
 import { GerenciarFeedbackComponent } from './gerenciar-feedback/gerenciar-feedback.component';
 import { EditarFeedbackComponent } from './editar-feedback/editar-feedback.component';
-import { EditarDeletarFeedBackComponent } from './editar-deletar-feed-back/editar-deletar-feed-back.component';
-import { AuthComponentComponent } from './auth-component/auth-component.component';
+import { LoginComponent } from './login/login.component';
+import { AuthService } from './auth.service';
+import { LoginRegisterComponent } from './login-register/login-register.component';
 
 @NgModule({
   declarations: [
@@ -39,8 +40,8 @@ import { AuthComponentComponent } from './auth-component/auth-component.componen
     CadastrarFeedbackComponent,
     GerenciarFeedbackComponent,
     EditarFeedbackComponent,
-    EditarDeletarFeedBackComponent,
-    AuthComponentComponent
+    LoginComponent,
+    LoginRegisterComponent
   ],
   imports: [
     BrowserModule,
@@ -52,7 +53,7 @@ import { AuthComponentComponent } from './auth-component/auth-component.componen
     
    
   ],
-  providers: [],
+  providers: [AuthService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

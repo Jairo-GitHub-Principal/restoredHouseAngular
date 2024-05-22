@@ -4,54 +4,17 @@
 
 <div class="col border m-5">
     <div class="row">
-    <!-- <button (click)="navegarPara('cadastrar-feedback')">
-        Cadatrar Feedback
-    </button> -->
+   
 
-    <!-- <button (click)="navegarPara('editar-feedback')">
-        Editar Feedback
-    </button> -->
-
-    <button routerLink="/editar-feedback">
-        Editar Feedback
+    <button class="btn btn-primary m-1" (click)="navegarPara('cadastrar-feedback')">
+       Cadastrar Feedback
     </button>
-    <button routerLink="/editar-deletar-feedback">
-        Editar deletar Feedback
+    
+    <button class="btn btn-primary m-1" routerLink="/editar-feedback">
+        Excluir Feedback
     </button>
+    
 
-    <button routerLink="/senha">
-       Editar Feedback seguro
-    </button>
-
-    <button routerLink="/autentication">
-       Autenticação
-     </button>
-
-    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#senhaModal">
-        Editar Feedback
-      </button>
-
-      <!-- Modal para solicitação de senha -->
-<div class="modal fade" id="senhaModal" tabindex="-1" aria-labelledby="senhaModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="senhaModalLabel">Autenticação Necessária</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          <div class="mb-3">
-            <label for="senhaInput" class="form-label">Senha</label>
-            <input #senhaInput  type="password" class="form-control" >
-          </div>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
-          <button type="button"  data-bs-dismiss="modal"  class="btn btn-primary" (click)="verificarSenha2(senhaInput.value)">Entrar</button>
-        </div>
-      </div>
-    </div>
-  </div>
 
 
     
