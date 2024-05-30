@@ -2,9 +2,12 @@ const express = require('express'); //Framework para construir a aplicação web
 const cors = require('cors'); // Importe o módulo cors Middleware para permitir requisições de diferentes origens. O CORS (Cross-origin Resource Sharing) é um mecanismo usado para adicionar cabeçalhos HTTP que informam aos navegadores para permitir que uma aplicação Web seja executada em uma origem e acesse recursos de outra origem diferente.
 const bcrypt = require('bcryptjs'); // Biblioteca para hashing de senhas.
 const jwt = require('jsonwebtoken'); // Biblioteca para gerar tokens JWT.
+const path = require('path'); // Módulo para lidar com caminhos de arquivos e diretórios.
 const connection = require('./database'); //Configuração da conexão com o banco de dados MySQL.
+const https = require('https');
 const app = express();
-const port = 3000;
+const port =3000;
+
 
 const SECRET_KEY = '1234'; // Coloque uma chave secreta segura aqui
 
@@ -15,8 +18,11 @@ app.use((req, res, next) => {
   next();
 });
 
-
-
+ // configure CORS
+//  const corsOptions = {
+//    origin: ['https://jairocesar.pessoal.ws/'],
+//   optionsSuccessStatus: 200
+//  };
 
 app.use(cors());
 app.use(express.json());
@@ -161,10 +167,20 @@ app.delete('/feedback/:id', (req, res) => {
 
 // Rota de exemplo
 app.get('/', (req, res) => {
-  res.send('Servidor Node.js rodando com sucesso!');
+  res.send('Servidor Node.js rodando com sucesso! no localhost por ip');
 });
+
+
+// Middleware para servir arquivos estáticos da aplicação Angular
+app.use(express.static(path.join(__dirname,'angular')));
+
+// Rota padrão que redireciona para o index.html
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname,'angular', 'index.html'));
+});
+
 
 // Iniciar o servidor
 app.listen(port, () => {
-  console.log(`Servidor Node.js rodando em http://localhost:${port}`);
+  console.log(`Servidor Node.js rodando em http:localhost:${port}`);
 });

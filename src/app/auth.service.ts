@@ -8,7 +8,15 @@ import { Router } from '@angular/router';
   providedIn: 'root'
 })
 export class AuthService {
-  private baseUrl = 'http://localhost:3000';
+  //base url para ambiente de desenvolvimento
+ //private baseUrl = 'http://localhost:3000';
+
+  // base url para ambiente de produção
+  //private baseUrl = 'http://jcwebteste.com.br:3000';// URL base do servidor Node.js
+
+    // base url para ambiente de produção
+  private baseUrl = "http://jairocesar.pessoal.ws:3000";
+
   private tokenKey = 'authToken';
 
   constructor(private http: HttpClient, private router:Router) {}

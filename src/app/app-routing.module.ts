@@ -18,7 +18,7 @@ import { LoginRegisterComponent } from './login-register/login-register.componen
 const routes: Routes = [
 // criar as rotas ou paths aqui
 {path:"",redirectTo:"home",pathMatch:"full"},
-{path: 'home',component:HomeComponent},
+{path: 'home',component:HomeComponent,data:{title:'Home Page'}}, // isso depois do HomeComponent, são os metadaodos que ajuda na indexação das paginas e do site nas pesquisas nos navegadores
 {path: 'servico',component:ServicosComponent},
 {path: 'quem-somos',component:QuemSomosComponent},
 {path: 'contatos',component:ContatosComponent},
@@ -28,11 +28,13 @@ const routes: Routes = [
 
 
 {path:'login',component:LoginComponent},
-{path: 'cadastrar-feedback', component:CadastrarFeedbackComponent,canActivate:[AuthGaurdGuard]},
-{path: 'editar-feedback',component:EditarFeedbackComponent,canActivate:[AuthGaurdGuard]}, // sera minha lista de feedbacks que eu escolho se edito ou deleto
-{ path:"login", redirectTo: '/login', pathMatch: 'full' },
-{path: 'registeruser',component:LoginRegisterComponent},
+{path:'cadastrar-feedback',component:CadastrarFeedbackComponent,canActivate:[AuthGaurdGuard]},
+{path:'editar-feedback',component:EditarFeedbackComponent,canActivate:[AuthGaurdGuard]}, // sera minha lista de feedbacks que eu escolho se edito ou deleto
+{path:"login", redirectTo: '/login', pathMatch: 'full' },
+{path:'registeruser',component:LoginRegisterComponent},
 
+
+{path:'**',redirectTo:'/home'}
 ];
 
 

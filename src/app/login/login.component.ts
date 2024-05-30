@@ -19,7 +19,7 @@ export class LoginComponent {
       
       () => {
         console.log(this.nome, this.senha)
-        this.router.navigate(['/editar-feedback']);
+        this.router.navigate(['/gerenciar-feedback']);
       },
       (error) => {
         this.errorMessage = error.error.message;

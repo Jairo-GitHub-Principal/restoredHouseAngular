@@ -14,8 +14,8 @@ import { DomSanitizer } from '@angular/platform-browser';
 export class FeedbackComponent implements OnInit {
   feedbacks: any[];
   ID:any;
-  feedbackidname="feedbacklist";
-  rashtag = "#"
+  feedbackidname="feedbacklist"; // esse é o nome do id da tag html, que sera concatenado com o id de cada registro vindo do DB, dando origem a um nomes destintos para as tags html dentro do lacp forEach assim teremos um id="" dinamico
+   rashtag = "#"
   v:any;
   video:string;
   
