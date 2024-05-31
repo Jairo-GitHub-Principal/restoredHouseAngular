@@ -9,10 +9,10 @@ import { Feedback } from 'src/models/feedback.model';
 })
 export class FeedbackService {
   // local host na porta 3000 no ambiente de desenvolvimento  'http://192.168.1.8:3000' ou 'http://192.168.1.8:3000'
-  //private baseUrl = 'http://192.168.1.8:3000'||'http://localhost:3000'; // URL base do servidor Node.js
+  private baseUrl = 'http://localhost:3000'; // URL base do servidor Node.js
  
   // localhost do servidor de produção  'http://191.252.197.11:3000'
-   private baseUrl = "http://jcwebteste.com.br:3000";
+  // private baseUrl = "http://jcwebteste.com.br:3000";
 
    // localhos do servidor de produção 
    //private baseUrl = "http://jairocesar.pessoal.ws:3000";

@@ -3,13 +3,19 @@ const cors = require('cors'); // Importe o módulo cors Middleware para permitir
 const bcrypt = require('bcryptjs'); // Biblioteca para hashing de senhas.
 const jwt = require('jsonwebtoken'); // Biblioteca para gerar tokens JWT.
 const path = require('path'); // Módulo para lidar com caminhos de arquivos e diretórios.
-const connection = require('./database'); //Configuração da conexão com o banco de dados MySQL.
+//const connection = require('./database'); //Configuração da conexão com o banco de dados MySQL.
 const https = require('https');
 const app = express();
 const port =3000;
 
+const { connectToDatabase, disconnectFromDatabase } = require('./database'); // importa a conexão e desconexão com o DB
+
 
 const SECRET_KEY = '1234'; // Coloque uma chave secreta segura aqui
+
+//criar instanciar da conexão e desconexão com o DB 
+
+// para encerrar a conexão é so chamar o metodo  disconnectFromDatabase(); e passar a instancia da conexão como parametro pra ele, que o mesmo encerrara a conexão
 
 
 // configuração  do cabeçalho "Permissions-Polyce"
@@ -49,6 +55,8 @@ const authenticateJWT = (req, res, next) => {
 // Rota para registrar um novo usuário
 //*****************************************************************************************************
 app.post('/register', async (req, res) => {
+
+  const dbconnection = connectToDatabase();
   const { nome, senha } = req.body;
 
   if (!nome || !senha) {
@@ -58,17 +66,21 @@ app.post('/register', async (req, res) => {
   const hashedPassword = await bcrypt.hash(senha, 10);
 
   const sqlInsert = 'INSERT INTO `user` (nome, senha) VALUES (?, ?)';
-  connection.query(sqlInsert, [nome, hashedPassword], (error, result) => {
+  dbconnection.query(sqlInsert, [nome, hashedPassword], (error, result) => {
     if (error) {
       console.error('Erro ao registrar usuário:', error);
       return res.status(500).json({ message: 'Erro ao registrar usuário.' });
+    }else{
+      res.status(201).json({ message: 'Usuário registrado com sucesso.' });
     }
-    res.status(201).json({ message: 'Usuário registrado com sucesso.' });
+    disconnectFromDatabase(dbconnection);
   });
 });
 //***************************************************************************************************** */
 // Rota para login de usuário
 app.post('/login', (req, res) => {
+
+  const dbconnection = connectToDatabase();
   const { nome, senha } = req.body;
 
   if (!nome || !senha) {
@@ -76,7 +88,7 @@ app.post('/login', (req, res) => {
   }
 
   const sqlSelect = 'SELECT * FROM `user` WHERE nome = ?';
-  connection.query(sqlSelect, [nome], async (error, results) => {
+  dbconnection.query(sqlSelect, [nome], async (error, results) => {
     if (error) {
       console.error('Erro ao buscar usuário:', error);
       return res.status(500).json({ message: 'Erro ao buscar usuário.' });
@@ -97,6 +109,8 @@ app.post('/login', (req, res) => {
     console.log("retorno do login com o token vindo pelo servidor",token);
     res.json({ token });
   });
+
+  disconnectFromDatabase(dbconnection);
 });
 
 
@@ -106,6 +120,7 @@ app.post('/login', (req, res) => {
 // Rota para inserir novo feedback
 app.post('/feedback', (req, res) => {
   console.log("informações de cadastro chegando no servidor com sucesso");
+  const dbconnection = connectToDatabase();
 
   const { titulo, textodocard, imagemcard, titulomodal, textcardmodal, imagemcardmodalurl, urlvideo } = req.body;
 
@@ -115,14 +130,18 @@ app.post('/feedback', (req, res) => {
   }
 
   const sql = 'INSERT INTO feedback (titulo, textodocard, imagemcard, titulomodal, textcardmodal, imagemcardmodalurl, urlvideo) VALUES (?, ?, ?, ?, ?, ?, ?)';
-  connection.query(sql, [titulo, textodocard, imagemcard, titulomodal, textcardmodal, imagemcardmodalurl, urlvideo], (err, results) => {
+  dbconnection.query(sql, [titulo, textodocard, imagemcard, titulomodal, textcardmodal, imagemcardmodalurl, urlvideo], (err, results) => {
     if (err) {
       console.error('Erro ao inserir feedback:', err);
       res.status(500).json({ error: 'Erro ao inserir feedback.' });
       return;
-    }
+    }else{
     res.status(201).json({ message: 'Feedback inserido com sucesso!' });
+    }
+    disconnectFromDatabase(dbconnection);
   });
+
+      
 });
 
 
@@ -130,35 +149,42 @@ app.post('/feedback', (req, res) => {
 
   // Rota para obter todos os feedbacks
     app.get('/feedback', (req, res) => {
+      const dbconnection = connectToDatabase(); // abre a conexão com o DB
     const sql = 'SELECT * FROM `feedback`';
-  
-    connection.query(sql, (err, results) => {
+   
+    dbconnection.query(sql, (err, results) => {
       console.log(sql);
       if (err) {
         console.error('Erro ao recuperar feedback:', err);
         res.status(500).json({ error: 'Erro ao recuperar feedback.' });
         return;
+      }else{
+        console.log("requisição Get feedback entregue ao destino");
       }
 
-
-
+     
       res.status(200).json(results);
+      disconnectFromDatabase(dbconnection); // fecha a conexão com o dB
     });
+    
   });
 
 
  // Rota para deletar um feedback
 app.delete('/feedback/:id', (req, res) => {
+  const dbconnection = connectToDatabase();
   const feedbackId = req.params.id;
 
   const sql = 'DELETE FROM `feedback` WHERE id = ?';
-  connection.query(sql, [feedbackId], (err, results) => {
+  dbconnection.query(sql, [feedbackId], (err, results) => {
     if (err) {
       console.error('Erro ao excluir feedback:', err);
       res.status(500).json({ error: 'Erro ao excluir feedback.' });
       return;
-    }
+    }else{
     res.status(200).json({ message: 'Feedback excluído com sucesso!' });
+    }
+    disconnectFromDatabase(dbconnection);
   });
 });
 

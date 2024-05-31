@@ -1,0 +1,82 @@
+const mysql = require('mysql');
+
+
+// // conexão para publicação
+const createConnection = () => {
+  retunr = mysql.createConnection({
+  host: 'restoredhome.mysql.dbaas.com.br',
+  user: 'restoredhome',
+  password:'Loca102030@#',
+  database:'restoredhome',
+   connectTimeout: 10000 // Tempo limite para a conexão em milissegundos (opcional)
+});
+};
+
+const connectToDatabase = () => {
+  const connection = createConnection();
+  connection.connect(err => {
+      if (err) {
+          console.error('Erro ao conectar ao banco de dados:', err);
+          throw err;
+      }
+  });
+  return connection;
+};
+
+
+
+
+
+const disconnectFromDatabase = (connection) => {
+  if (connection) {
+      connection.end(err => {
+          if (err) {
+              console.error('Erro ao desconectar do banco de dados:', err);
+          }
+      });
+  }
+};
+
+module.exports = {
+  connectToDatabase,
+  disconnectFromDatabase
+};
+
+
+
+codigo de erro para cadastrar feedback
+
+ReferenceError: connection is not defined
+    at D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js:129:3
+    at Layer.handle [as handle_request] (D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\express\lib\router\layer.js:95:5)
+    at D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\express\lib\router\index.js:280:10)
+    at D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\body-parser\lib\read.js:137:5   
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+Conexão com o banco de dados estabelecida.
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\mysql\lib\protocol\Protocol.js:112:13)
+    at Socket.<anonymous> (D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\mysql\lib\Connection.js:94:28)
+    at Socket.<anonymous> (D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\mysql\lib\Connection.js:423:8)
+    at Protocol.emit (node:events:513:28)
+    at Protocol._delegateError (D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\mysql\lib\protocol\Protocol.js:398:10)
+    at Protocol.end (D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\mysql\lib\protocol\Protocol.js:116:8)
+    at Socket.<anonymous> (D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\mysql\lib\Connection.js:94:28)
+    [... lines matching original stack trace ...]
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  fatal: true,
+  code: 'PROTOCOL_CONNECTION_LOST'
+}

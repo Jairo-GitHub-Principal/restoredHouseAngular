@@ -1,0 +1,26 @@
+2024-05-30 21:32:00 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-05-30 21:32:00 - Started 8212
+2024-05-30 21:33:46 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-05-30 21:33:46 - Started 16932
+2024-05-30 21:40:25 - Stopping meuservidornode.exe
+2024-05-30 21:40:25 - ProcessKill 16932
+2024-05-30 21:40:25 - Found child process: 20692 Name: conhost.exe
+2024-05-30 21:40:25 - Found child process: 20912 Name: node.exe
+2024-05-30 21:40:25 - Stopping process 20692
+2024-05-30 21:40:25 - Send SIGINT 20692
+2024-05-30 21:40:25 - SIGINT to 20692 failed - Killing as fallback
+2024-05-30 21:40:25 - Stopping process 20912
+2024-05-30 21:40:25 - Send SIGINT 20912
+2024-05-30 21:40:25 - SIGINT to 20912 failed - Killing as fallback
+2024-05-30 21:40:25 - Stopping process 16932
+2024-05-30 21:40:25 - Send SIGINT 16932
+2024-05-30 21:40:25 - SIGINT to 16932 failed - Killing as fallback
+2024-05-30 21:40:25 - Finished meuservidornode.exe
+2024-05-30 21:40:30 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-05-30 21:40:30 - Started 5864
+2024-05-30 21:41:23 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-05-30 21:41:23 - Started 20456
+2024-05-30 21:41:33 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-05-30 21:41:33 - Started 4996
+2024-05-30 21:41:52 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-05-30 21:41:52 - Started 20392
