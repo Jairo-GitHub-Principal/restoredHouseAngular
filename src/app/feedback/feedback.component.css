@@ -1,6 +1,10 @@
 /*fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap');
 
+*{
+    padding: 0;
+    margin: 0;
+}
 
 .title-home{
     font-family: "Sedan SC", serif;
@@ -8,4 +12,47 @@
     font-style: normal;
     font-style: italic;
 
+}
+
+.color-feedbacks-text{
+    color: #D6BD98;
+
+}
+
+.background-feedbacks{
+    padding-top: 60px;
+    background-color: #D6BD98;
+}
+
+.background-button{
+    background-color: #D6BD98;
+    background-color: #606676;
+    background-color: #677D6A;
+    border: solid 1px #D6BD98 ;
+    /* background-color: #1A3636; */
+    
+}
+
+.color-text{
+    color: #D6BD98;
+
+}
+
+.background-feedbacks-card{
+    background-color: #D6BD98;
+    background-color: #606676;
+    background-color: #677D6A;
+    background-color: #1A3636;
+    
+}
+
+.autura{
+min-height: 800px;
+}
+
+
+.autura__card{
+
+    max-height: 500px;
+    min-height: 400px;
 }

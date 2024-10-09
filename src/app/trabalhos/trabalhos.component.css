@@ -8,3 +8,31 @@
     font-style: italic;
 
 }
+*{
+    margin: 0;
+}
+
+.background-button{
+    background-color: #677D6A;
+    
+}
+
+.color-trabalhos-text{
+    color: #D6BD98;
+
+}
+
+.background-trabalhos-card{
+    background-color: #D6BD98;;
+}
+
+.altura__trabalhos{
+    min-height: 800px;
+}
+
+.altura__card{
+    max-height: 500px;
+    min-height: 300px;
+
+}
+

@@ -1,9 +1,14 @@
 /*fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap');
 
+*{
+  padding: 0;
+  margin: 0;
+}
+
 footer{
-  background-color: black;
-  color: white;
+  background-color: #40534C;
+  color: #D6BD98;
 }
 .redesocial img{
     width: 50px;
@@ -22,10 +27,10 @@ footer{
     height: 50px;
     position: fixed;
     bottom: 30px;
-   
-    color: white;
+    background-color: #1A3636;
     border: none;
-    border-radius: 50%;
+    
+   
     
     cursor: pointer;
   }

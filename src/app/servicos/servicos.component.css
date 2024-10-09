@@ -22,3 +22,26 @@
     font-style: normal; 
     font-size:20px;
 }
+
+.background-service{
+    background-color: #677D6A;
+}
+
+.color-service-text{
+    color: #D6BD98;
+
+}
+
+.background-card-service{
+    background-color: #D6BD98;
+}
+
+
+.altura__servico{
+    min-height: 800px;
+}
+
+.altura__card{
+    min-height: 500px;
+    max-height: 500px;
+}

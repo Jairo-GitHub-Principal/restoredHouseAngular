@@ -55,7 +55,7 @@ const authenticateJWT = (req, res, next) => {
 // Rota para registrar um novo usuário
 //*****************************************************************************************************
 app.post('/register', async (req, res) => {
-
+console.log("async Res:"+ res)
   const dbconnection = connectToDatabase();
   const { nome, senha } = req.body;
 

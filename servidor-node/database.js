@@ -6,16 +6,30 @@
 const mysql = require('mysql');
 
 // conexão para publicação
+// const createConnection = () => {
+//   return mysql.createConnection({
+//     host: 'restoredhome.mysql.dbaas.com.br',
+//     user: 'restoredhome',
+//     password: 'Loca102030@#',
+//     database: 'restoredhome',
+//     connectTimeout: 10000 // Tempo limite para a conexão em milissegundos (opcional)
+//   });
+// };
+
+
+// conexão DB para localweb servidor compartilhado:
+
+
+
 const createConnection = () => {
   return mysql.createConnection({
-    host: 'restoredhome.mysql.dbaas.com.br',
-    user: 'restoredhome',
-    password: 'Loca102030@#',
-    database: 'restoredhome',
+    host: 'restoredhouse.mysql.dbaas.com.br',
+    user: 'restoredhouse',
+    password: 'K474r1n@',
+    database: 'restoredhouse',
     connectTimeout: 10000 // Tempo limite para a conexão em milissegundos (opcional)
   });
 };
-
 const connectToDatabase = () => {
   const connection = createConnection();
   console.log('Criando conexão com o banco de dados...');
@@ -49,13 +63,13 @@ module.exports = {
 
 
 
-// // conexão para uso no local de desenvolvimento
-// // const connection = mysql.createConnection({
-// //   host: 'localhost',
-// //   user: 'root',
-// //   password:'',
-// //   database:'restoredhome'
-// // });
+// //conexão para uso no local de desenvolvimento
+// const connection = mysql.createConnection({
+//   host: 'localhost',
+//   user: 'root',
+//   password:'',
+//   database:'restoredhome'
+// });
 
 // //Manter a conexão viva em caso de não poder abrir e fechar a conexão manualmente
 // function keepAlive() {

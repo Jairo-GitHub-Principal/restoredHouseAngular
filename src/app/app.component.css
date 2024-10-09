@@ -1,3 +1,8 @@
+
+*{
+  padding: 0;
+  margin: 0;
+}
 .imgFundo{
     background-image: url('../assets/img/home/building-1727807.jpg');
      /* background-image: url('../assets/img/home/backgroundPrincipal3.jpg'); */
@@ -33,3 +38,7 @@
   .afastar-footer-header{
     
   }
+
+  .background-home{
+    background-color: #1A3636;
+ }

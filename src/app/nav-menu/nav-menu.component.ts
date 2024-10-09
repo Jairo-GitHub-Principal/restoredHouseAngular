@@ -9,7 +9,7 @@ import { AppRoutingModule } from '../app-routing.module';
 })
 export class NavMenuComponent implements OnInit {
   isExpanded:true;
-  logoTitulo="RestoredHome"
+  logoTitulo="Restored House"
   constructor() { }
 
   ngOnInit() {

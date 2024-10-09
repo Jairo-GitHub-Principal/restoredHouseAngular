@@ -1,42 +1,47 @@
-
 <!-- a classe d-flex align-items-start foi adicionada pra fixar o logotitulo no topo quando abrir o menu aburguer drop-down-->
-<nav
-  class=" row d-flex align-items-start navbar navbar-expand-lg navbar-light bg-light row  border-top border-bottom border-warning mt-1 text-center p-1">
+<nav class=" alinhar-elementos-nav row d-flex align-items-center navbar navbar-expand-lg  nav-menu-background   mt-1 mb-1 text-center p-1 ">
 
 
-  <div class="col-3  d-flex flex-column align-items-">
-    <h2 id="logo-titulo">{{logoTitulo}}</h2>
-   
+  <div class="col-3  d-flex flex-column align-items">
+    <div class="row ">
+      <div class="logo col-4  p-0 ">
+        <img class="logo " width="120px" src="../../assets/logo/logotipo.png" />
+      </div>
+      <div class=" ">
+        <!-- <h2  id="logo-titulo" class="titulo ">{{logoTitulo}}</h2> -->
+      </div>
+    </div>
+
   </div>
-  <div class="col-9 ">
+  <div class="col-7  row d-flex align-items-center me-5 ">
     <div class="col-12 m-1 text-end">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        <span class="navbar"><img width="40px" src="../../assets/icon/amburguer3.png"></span>
       </button>
 
-      <div class="collapse navbar-collapse justify-content-end    " id="navbarNav">
-        <ul class="navbar-nav m-1">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" routerLink='home'>Home</a>
+      <div class="collapse navbar-collapse justify-content-end " id="navbarNav">
+        <ul class="navbar-nav m-1  ">
+          <li class="nav-item ">
+            <a class="nav-link active nav-menu-texto " aria-current="page" routerLink='home'>Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" routerLink='/servico'>Serviço</a>
+            <a class="nav-link nav-menu-texto" routerLink='/servico'>Serviço</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" routerLink="/quem-somos">Quem Somos</a>
+            <a class="nav-link nav-menu-texto" routerLink="/quem-somos">Quem Somos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" routerLink="/contatos">Contatos</a>
+            <a class="nav-link nav-menu-texto" routerLink="/contatos">Contatos</a>
           </li>
           <li class="nav-item ">
-            <a class="nav-link" routerLink="/trabalho">Trabalhos realizados</a>
+            <a class="nav-link nav-menu-texto" routerLink="/trabalho">Trabalhos realizados</a>
           </li>
           <li class="nav-item ">
-            <a class="nav-link" routerLink="/feedback">Feedback</a>
+            <a class="nav-link nav-menu-texto" routerLink="/feedback">Feedback</a>
           </li>
           <li class="nav-item ">
-            <a class="nav-link" routerLink="/gerenciar-feedback">Gerenciar Feedback</a>
+            <a class="nav-link nav-menu-texto" routerLink="/gerenciar-feedback">Gerenciar Feedback</a>
           </li>
         </ul>
 

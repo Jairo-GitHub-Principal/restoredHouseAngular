@@ -18,8 +18,7 @@ export class EditarFeedbackComponent implements OnInit {
   rashtag = "#"
   v:any;
   video:string;
-  feedbackSelecionado:Feedback;
-  
+  feedbackExcluido: any[] = [];  
 
   constructor(
     private feedbackService: FeedbackService,
@@ -82,23 +81,27 @@ export class EditarFeedbackComponent implements OnInit {
 
 
   // Excluir Feedback  
-  excluirFeedback(id: string): void {
-    console.log("id chegando no metodo excluirFeedback editar-feedback.component", id);
-    if (confirm('Tem certeza que deseja excluir este feedback?')) {
-      this.feedbackService.deleteFeedback(id).subscribe(
-        (res:Feedback) => {
-          console.log('Feedback excluído com sucesso!',res.titulo);
-          // Remover o feedback da lista após a exclusão
-          this.feedbacks = this.feedbacks.filter(feedback => feedback.id !== id);
-        },
-        error => {
-          console.error('Erro ao excluir feedback:', error);
-          // Se houver um erro, exibir uma mensagem de erro para o usuário
-          // ou tratar de outra forma apropriada
-        }
-      );
-    }
+ // Método para excluir feedback no componente
+excluirFeedback(id: string): void {
+  console.log("ID recebido no método excluirFeedback", id);
+  
+  if (confirm('Tem certeza que deseja excluir este feedback?')) {
+    this.feedbackService.deleteFeedback(id).subscribe(
+      response => {
+        console.log('Feedback enviado com sucesso:', response);
+        alert('Feedbck excluido com sucesso!');
+        this.feedbacks = this.feedbacks.filter(feedback => feedback.id !== parseInt(id, 10));
+        this.loadFeedbacks();
+      },
+      error => {
+        console.error('Erro ao enviar feedback:', error);
+        alert('Erro ao enviar feedback. Por favor, tente novamente.');
+      }
+
+    );
   }
+}
+
 
    finishinSection(){
         this.authService.logout();

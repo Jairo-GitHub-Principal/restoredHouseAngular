@@ -1,0 +1,137 @@
+<?php
+
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+
+require_once 'auth.php';
+require_once 'feedback.php';
+require_once 'database.php';
+require_once 'vendor/autoload.php'; // Para JWT
+
+use Firebase\JWT\JWT;
+use Firebase\JWT\Key;
+
+$method = $_SERVER['REQUEST_METHOD'];
+$path = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
+
+// Rota de registro
+if ($method === 'POST' && $path === '/register') {
+    $data = json_decode(file_get_contents('php://input'), true);
+    echo register($data['nome'], $data['senha']);
+}
+
+// Rota de login
+if ($method === 'POST' && $path === '/login') {
+    $data = json_decode(file_get_contents('php://input'), true);
+    echo login($data['nome'], $data['senha']);
+}
+
+// Rota de feedback
+if ($method === 'POST' && $path === '/feedback') {
+    $data = json_decode(file_get_contents('php://input'), true);
+    echo insertFeedback($data['titulo'], $data['textodocard'], $data['imagemcard'], $data['titulomodal'], $data['textcardmodal'], $data['imagemcardmodalurl'], $data['urlvideo']);
+}
+
+if ($method === 'GET' && $path === '/feedback') {
+    echo getFeedback();
+}
+
+if ($method === 'DELETE' && preg_match('/\/feedback\/(\d+)/', $path, $matches)) {
+    $id = $matches[1];
+    echo deleteFeedback($id);
+}
+
+// rota de teste:
+
+// if ($method === 'post' && $path === '/test-connection') {
+   
+//     // Tente criar a conexão
+//     $connection = createConnection();
+
+//     // Verifique se a conexão foi bem-sucedida
+//     if ($connection) {
+//         echo 'Conexão estabelecida com sucesso.';
+//     } else {
+//         echo 'Falha ao estabelecer conexão com o banco de dados.';
+//     }
+
+//     disconnectFromDatabase($connection); // Certifique-se de fechar a conexão
+// }
+
+
+
+if (strtoupper($method) === 'POST' && $path === '/test-connection') {
+    $connection = createConnection(); // Tente criar a conexão
+
+    if ($connection) {
+        echo json_encode(['message' => 'Conexão estabelecida com sucesso.']);
+    } else {
+        echo json_encode(['error' => 'Falha ao estabelecer conexão com o banco de dados.']);
+    }
+    disconnectFromDatabase($connection); // Certifique-se de fechar a conexão
+} else {
+    http_response_code(404); // Retorna 404 se não encontrar a rota
+    echo json_encode(['error' => 'Endpoint não encontrado.']);
+}
+
+
+?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<?php
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+
+// Inclua o arquivo de conexão
+require_once 'database.php';
+
+// Obtém o método HTTP e o caminho
+$method = $_SERVER['REQUEST_METHOD'];
+$path = $_SERVER['REQUEST_URI'];
+
+// Remove parâmetros de consulta (query parameters) da URL
+$path = strtok($path, '?');
+
+// Rotas
+if (strtoupper($method) === 'POST' && $path === '/server.php/test-connection') {
+    echo("Requisição do tipo  Post");
+
+    // Tente criar a conexão
+    $connection = createConnection();
+
+    // Verifica se a conexão foi bem-sucedida
+    if ($connection) {
+        echo json_encode(['message' => 'Conexão estabelecida com sucesso.']);
+    } else {
+        echo json_encode(['error' => 'Falha ao estabelecer conexão com o banco de dados.']);
+    }
+
+    disconnectFromDatabase($connection); // Certifique-se de fechar a conexão
+
+} 
+if (strtoupper($method) === 'GET' && $path === '/test-connection') {
+    echo("Requisição do tipo  GET");
+    // Pode usar a mesma lógica de conexão
+    $connection = createConnection();
+    if ($connection) {
+        echo json_encode(['message' => 'Conexão estabelecida com sucesso.']);
+    } else {
+        echo json_encode(['error' => 'Falha ao estabelecer conexão com o banco de dados.']);
+    }
+    disconnectFromDatabase($connection);
+}else {
+    // Retorna um erro se o método ou caminho não forem correspondentes
+    http_response_code(404); // Código de resposta não encontrado
+    echo json_encode(['error' => 'Endpoint não encontrado.']);
+}

@@ -24,3 +24,1657 @@
 2024-05-30 21:41:33 - Started 4996
 2024-05-30 21:41:52 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
 2024-05-30 21:41:52 - Started 20392
+2024-05-31 03:11:35 - Stopping meuservidornode.exe
+2024-05-31 03:11:35 - ProcessKill 20392
+2024-05-31 03:11:35 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2024-05-31 23:19:03 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-05-31 23:19:03 - Started 8628
+2024-06-01 04:19:14 - Stopping meuservidornode.exe
+2024-06-01 04:19:14 - ProcessKill 8628
+2024-06-01 04:19:14 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2024-06-01 23:28:06 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-06-01 23:28:06 - Started 8492
+2024-06-02 01:38:27 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-06-02 01:38:27 - Started 3324
+2024-06-02 06:06:10 - Stopping meuservidornode.exe
+2024-06-02 06:06:10 - ProcessKill 3324
+2024-06-02 06:06:10 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2024-06-02 23:35:43 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-06-02 23:35:43 - Started 8628
+2024-06-03 03:28:04 - Stopping meuservidornode.exe
+2024-06-03 03:28:04 - ProcessKill 8628
+2024-06-03 03:28:04 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2024-06-03 19:51:30 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-06-03 19:51:30 - Started 8968
+2024-06-04 02:05:44 - Stopping meuservidornode.exe
+2024-06-04 02:05:44 - ProcessKill 8968
+2024-06-04 02:05:44 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2024-06-05 00:46:49 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-06-05 00:46:49 - Started 8260
+2024-06-05 01:37:20 - Stopping meuservidornode.exe
+2024-06-05 01:37:20 - ProcessKill 8260
+2024-06-05 01:37:20 - Found child process: 8284 Name: conhost.exe
+2024-06-05 01:37:20 - Found child process: 8828 Name: node.exe
+2024-06-05 01:37:20 - Stopping process 8284
+2024-06-05 01:37:20 - Send SIGINT 8284
+2024-06-05 01:37:20 - SIGINT to 8284 failed - Killing as fallback
+2024-06-05 01:37:20 - Stopping process 8828
+2024-06-05 01:37:20 - Send SIGINT 8828
+2024-06-05 01:37:20 - SIGINT to 8828 failed - Killing as fallback
+2024-06-05 01:37:20 - Stopping process 8260
+2024-06-05 01:37:20 - Send SIGINT 8260
+2024-06-05 01:37:20 - SIGINT to 8260 failed - Killing as fallback
+2024-06-05 01:37:20 - Finished meuservidornode.exe
+2024-06-05 02:11:00 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-06-05 02:11:00 - Started 21448
+2024-06-05 03:30:09 - Stopping meuservidornode.exe
+2024-06-05 03:30:09 - ProcessKill 21448
+2024-06-05 03:30:09 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2024-06-05 16:04:48 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-06-05 16:04:48 - Started 8608
+2024-06-05 16:20:05 - Stopping meuservidornode.exe
+2024-06-05 16:20:05 - ProcessKill 8608
+2024-06-05 16:20:06 - Shutdown exception
+Message:Classe não registrada
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2024-06-05 23:41:32 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-06-05 23:41:32 - Started 8412
+2024-06-06 00:22:27 - Stopping meuservidornode.exe
+2024-06-06 00:22:27 - ProcessKill 8412
+2024-06-06 00:22:27 - Found child process: 8432 Name: conhost.exe
+2024-06-06 00:22:27 - Found child process: 8820 Name: node.exe
+2024-06-06 00:22:27 - Stopping process 8432
+2024-06-06 00:22:27 - Send SIGINT 8432
+2024-06-06 00:22:27 - SIGINT to 8432 failed - Killing as fallback
+2024-06-06 00:22:28 - Stopping process 8820
+2024-06-06 00:22:28 - Send SIGINT 8820
+2024-06-06 00:22:28 - SIGINT to 8820 failed - Killing as fallback
+2024-06-06 00:22:28 - Stopping process 8412
+2024-06-06 00:22:28 - Send SIGINT 8412
+2024-06-06 00:22:28 - SIGINT to 8412 failed - Killing as fallback
+2024-06-06 00:22:28 - Finished meuservidornode.exe
+2024-06-06 01:59:01 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-06-06 01:59:01 - Started 9340
+2024-06-06 03:12:26 - Stopping meuservidornode.exe
+2024-06-06 03:12:26 - ProcessKill 9340
+2024-06-06 03:12:26 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2024-06-06 18:33:56 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-06-06 18:33:56 - Started 8672
+2024-06-07 00:59:16 - Stopping meuservidornode.exe
+2024-06-07 00:59:16 - ProcessKill 8672
+2024-06-07 00:59:16 - Found child process: 8696 Name: conhost.exe
+2024-06-07 00:59:16 - Found child process: 8948 Name: node.exe
+2024-06-07 00:59:16 - Stopping process 8696
+2024-06-07 00:59:16 - Send SIGINT 8696
+2024-06-07 00:59:16 - SIGINT to 8696 failed - Killing as fallback
+2024-06-07 00:59:16 - Stopping process 8948
+2024-06-07 00:59:16 - Send SIGINT 8948
+2024-06-07 00:59:16 - SIGINT to 8948 failed - Killing as fallback
+2024-06-07 00:59:16 - Stopping process 8672
+2024-06-07 00:59:16 - Send SIGINT 8672
+2024-06-07 00:59:16 - SIGINT to 8672 failed - Killing as fallback
+2024-06-07 00:59:16 - Finished meuservidornode.exe
+2024-06-07 00:59:19 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-06-07 00:59:19 - Started 9704
+2024-06-07 01:01:43 - Stopping meuservidornode.exe
+2024-06-07 01:01:43 - ProcessKill 9704
+2024-06-07 01:01:44 - Found child process: 924 Name: conhost.exe
+2024-06-07 01:01:44 - Found child process: 14360 Name: node.exe
+2024-06-07 01:01:44 - Stopping process 924
+2024-06-07 01:01:44 - Send SIGINT 924
+2024-06-07 01:01:44 - SIGINT to 924 failed - Killing as fallback
+2024-06-07 01:01:44 - Stopping process 14360
+2024-06-07 01:01:44 - Send SIGINT 14360
+2024-06-07 01:01:44 - SIGINT to 14360 failed - Killing as fallback
+2024-06-07 01:01:44 - Stopping process 9704
+2024-06-07 01:01:44 - Send SIGINT 9704
+2024-06-07 01:01:44 - SIGINT to 9704 failed - Killing as fallback
+2024-06-07 01:01:44 - Finished meuservidornode.exe
+2024-06-07 01:01:46 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-06-07 01:01:46 - Started 9544
+2024-06-07 01:04:47 - Stopping meuservidornode.exe
+2024-06-07 01:04:47 - ProcessKill 9544
+2024-06-07 01:04:47 - Found child process: 4508 Name: conhost.exe
+2024-06-07 01:04:47 - Found child process: 8992 Name: node.exe
+2024-06-07 01:04:47 - Stopping process 4508
+2024-06-07 01:04:47 - Send SIGINT 4508
+2024-06-07 01:04:47 - SIGINT to 4508 failed - Killing as fallback
+2024-06-07 01:04:48 - Stopping process 8992
+2024-06-07 01:04:48 - Send SIGINT 8992
+2024-06-07 01:04:48 - SIGINT to 8992 failed - Killing as fallback
+2024-06-07 01:04:48 - Stopping process 9544
+2024-06-07 01:04:48 - Send SIGINT 9544
+2024-06-07 01:04:48 - SIGINT to 9544 failed - Killing as fallback
+2024-06-07 01:04:48 - Finished meuservidornode.exe
+2024-06-07 01:08:48 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-06-07 01:08:48 - Started 888
+2024-06-07 02:20:13 - Stopping meuservidornode.exe
+2024-06-07 02:20:13 - ProcessKill 888
+2024-06-07 02:20:27 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2024-06-08 14:15:45 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-06-08 14:15:45 - Started 9048
+2024-06-08 15:15:04 - Stopping meuservidornode.exe
+2024-06-08 15:15:04 - ProcessKill 9048
+2024-06-08 15:15:04 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2024-06-08 20:51:12 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-06-08 20:51:12 - Started 8884
+2024-06-08 20:56:40 - Stopping meuservidornode.exe
+2024-06-08 20:56:40 - ProcessKill 8884
+2024-06-08 20:56:40 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2024-06-09 02:53:25 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-06-09 02:53:25 - Started 8908
+2024-06-09 03:26:40 - Stopping meuservidornode.exe
+2024-06-09 03:26:40 - ProcessKill 8908
+2024-06-09 03:26:40 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2024-06-09 12:47:54 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-06-09 12:47:54 - Started 8972
+2024-06-09 12:56:24 - Stopping meuservidornode.exe
+2024-06-09 12:56:24 - ProcessKill 8972
+2024-06-09 12:56:24 - Shutdown exception
+Message:Classe não registrada
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2024-06-09 12:57:10 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-06-09 12:57:10 - Started 8932
+2024-06-09 17:15:53 - Stopping meuservidornode.exe
+2024-06-09 17:15:53 - ProcessKill 8932
+2024-06-09 17:15:53 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2024-06-09 20:42:14 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-06-09 20:42:14 - Started 9112
+2024-06-10 03:01:17 - Stopping meuservidornode.exe
+2024-06-10 03:01:17 - ProcessKill 9112
+2024-06-10 03:01:17 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2024-06-10 19:58:36 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-06-10 19:58:36 - Started 7488
+2024-06-10 21:06:55 - Stopping meuservidornode.exe
+2024-06-10 21:06:55 - ProcessKill 7488
+2024-06-10 21:06:55 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2024-06-10 21:07:37 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-06-10 21:07:37 - Started 8544
+2024-06-11 00:51:10 - Stopping meuservidornode.exe
+2024-06-11 00:51:10 - ProcessKill 8544
+2024-06-11 00:51:10 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2024-06-11 12:18:05 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-06-11 12:18:05 - Started 9084
+2024-06-11 12:27:22 - Stopping meuservidornode.exe
+2024-06-11 12:27:22 - ProcessKill 9084
+2024-06-11 12:27:22 - Shutdown exception
+Message:Classe não registrada
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2024-06-11 16:36:48 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-06-11 16:36:48 - Started 8928
+2024-06-12 03:51:18 - Stopping meuservidornode.exe
+2024-06-12 03:51:18 - ProcessKill 8928
+2024-06-12 03:51:19 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2024-06-12 22:29:43 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-06-12 22:29:43 - Started 8908
+2024-06-13 02:38:12 - Stopping meuservidornode.exe
+2024-06-13 02:38:12 - ProcessKill 8908
+2024-06-13 02:38:13 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2024-06-13 02:39:08 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-06-13 02:39:08 - Started 8352
+2024-06-13 02:40:47 - Stopping meuservidornode.exe
+2024-06-13 02:40:47 - ProcessKill 8352
+2024-06-13 02:40:48 - Shutdown exception
+Message:Classe não registrada
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2024-06-13 18:40:14 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-06-13 18:40:14 - Started 9192
+2024-06-14 03:51:50 - Stopping meuservidornode.exe
+2024-06-14 03:51:50 - ProcessKill 9192
+2024-06-14 03:51:51 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2024-06-14 12:46:53 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-06-14 12:46:53 - Started 8696
+2024-06-14 13:10:29 - Stopping meuservidornode.exe
+2024-06-14 13:10:29 - ProcessKill 8696
+2024-06-14 13:10:29 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2024-06-14 17:24:59 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-06-14 17:24:59 - Started 8804
+2024-06-15 03:00:09 - Stopping meuservidornode.exe
+2024-06-15 03:00:09 - ProcessKill 8804
+2024-06-15 03:00:09 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2024-06-15 12:49:50 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-06-15 12:49:50 - Started 8772
+2024-06-16 04:17:00 - Stopping meuservidornode.exe
+2024-06-16 04:17:00 - ProcessKill 8772
+2024-06-16 04:17:00 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2024-06-16 13:57:26 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-06-16 13:57:26 - Started 9008
+2024-06-16 20:10:30 - Stopping meuservidornode.exe
+2024-06-16 20:10:30 - ProcessKill 9008
+2024-06-16 20:10:30 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2024-06-17 00:38:31 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-06-17 00:38:31 - Started 8060
+2024-06-17 02:58:40 - Stopping meuservidornode.exe
+2024-06-17 02:58:40 - ProcessKill 8060
+2024-06-17 02:58:40 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2024-06-17 14:12:41 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-06-17 14:12:41 - Started 8452
+2024-06-17 18:29:17 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-06-17 18:29:17 - Started 8624
+2024-06-18 03:40:43 - Stopping meuservidornode.exe
+2024-06-18 03:40:43 - ProcessKill 8624
+2024-06-18 03:40:43 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2024-06-18 13:05:25 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-06-18 13:05:25 - Started 8668
+2024-06-18 13:57:22 - Stopping meuservidornode.exe
+2024-06-18 13:57:22 - ProcessKill 8668
+2024-06-18 13:57:22 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2024-06-18 13:58:02 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-06-18 13:58:02 - Started 8256
+2024-06-18 16:40:26 - Stopping meuservidornode.exe
+2024-06-18 16:40:26 - ProcessKill 8256
+2024-06-18 16:40:30 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2024-06-18 18:30:39 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-06-18 18:30:39 - Started 8088
+2024-06-18 20:43:16 - Stopping meuservidornode.exe
+2024-06-18 20:43:16 - ProcessKill 8088
+2024-06-18 20:43:17 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2024-06-18 20:44:04 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-06-18 20:44:04 - Started 8624
+2024-06-19 02:56:01 - Stopping meuservidornode.exe
+2024-06-19 02:56:01 - ProcessKill 8624
+2024-06-19 02:56:01 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2024-06-19 21:11:30 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-06-19 21:11:30 - Started 9180
+2024-06-19 22:53:41 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-06-19 22:53:41 - Started 6972
+2024-06-20 03:32:59 - Stopping meuservidornode.exe
+2024-06-20 03:32:59 - ProcessKill 6972
+2024-06-20 03:33:00 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2024-06-20 12:51:01 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-06-20 12:51:01 - Started 8628
+2024-06-20 13:05:51 - Stopping meuservidornode.exe
+2024-06-20 13:05:51 - ProcessKill 8628
+2024-06-20 13:05:52 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2024-06-20 13:47:13 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-06-20 13:47:13 - Started 8964
+2024-06-20 14:59:38 - Stopping meuservidornode.exe
+2024-06-20 14:59:38 - ProcessKill 8964
+2024-06-20 14:59:38 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2024-06-20 18:52:13 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-06-20 18:52:13 - Started 8980
+2024-06-20 23:43:23 - Stopping meuservidornode.exe
+2024-06-20 23:43:23 - ProcessKill 8980
+2024-06-20 23:43:23 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2024-06-21 01:02:09 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-06-21 01:02:09 - Started 8400
+2024-06-21 03:05:21 - Stopping meuservidornode.exe
+2024-06-21 03:05:21 - ProcessKill 8400
+2024-06-21 03:05:21 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2024-06-21 10:55:23 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-06-21 10:55:23 - Started 9116
+2024-06-21 11:04:36 - Stopping meuservidornode.exe
+2024-06-21 11:04:36 - ProcessKill 9116
+2024-06-21 11:04:36 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2024-06-22 00:33:41 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-06-22 00:33:41 - Started 9068
+2024-06-22 01:46:08 - Stopping meuservidornode.exe
+2024-06-22 01:46:08 - ProcessKill 9068
+2024-06-22 01:46:08 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2024-06-22 14:50:38 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-06-22 14:50:38 - Started 8428
+2024-06-22 18:00:02 - Stopping meuservidornode.exe
+2024-06-22 18:00:02 - ProcessKill 8428
+2024-06-22 18:00:02 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2024-06-22 18:24:12 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-06-22 18:24:13 - Started 8816
+2024-06-22 19:04:57 - Stopping meuservidornode.exe
+2024-06-22 19:04:57 - ProcessKill 8816
+2024-06-22 19:04:57 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2024-06-22 22:31:04 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-06-22 22:31:04 - Started 9064
+2024-06-23 04:47:46 - Stopping meuservidornode.exe
+2024-06-23 04:47:46 - ProcessKill 9064
+2024-06-23 04:47:47 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2024-06-23 13:38:09 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-06-23 13:38:09 - Started 8940
+2024-06-24 02:32:46 - Stopping meuservidornode.exe
+2024-06-24 02:32:46 - ProcessKill 8940
+2024-06-24 02:32:46 - Shutdown exception
+Message:Classe não registrada
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2024-06-24 15:41:47 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-06-24 15:41:47 - Started 8816
+2024-06-25 01:07:31 - Stopping meuservidornode.exe
+2024-06-25 01:07:31 - ProcessKill 8816
+2024-06-25 01:07:31 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2024-06-25 14:10:48 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-06-25 14:10:48 - Started 8684
+2024-06-26 02:00:53 - Stopping meuservidornode.exe
+2024-06-26 02:00:53 - ProcessKill 8684
+2024-06-26 02:00:53 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2024-06-26 20:20:41 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-06-26 20:20:41 - Started 8780
+2024-06-26 20:21:10 - Stopping meuservidornode.exe
+2024-06-26 20:21:10 - ProcessKill 8780
+2024-06-26 20:21:11 - Shutdown exception
+Message:Classe não registrada
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2024-06-26 20:22:00 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-06-26 20:22:00 - Started 9108
+2024-06-27 01:51:30 - Stopping meuservidornode.exe
+2024-06-27 01:51:30 - ProcessKill 9108
+2024-06-27 01:51:30 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2024-06-27 18:53:33 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-06-27 18:53:33 - Started 8584
+2024-06-28 04:03:39 - Stopping meuservidornode.exe
+2024-06-28 04:03:39 - ProcessKill 8584
+2024-06-28 04:03:39 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2024-06-28 18:52:16 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-06-28 18:52:16 - Started 8908
+2024-06-29 03:56:10 - Stopping meuservidornode.exe
+2024-06-29 03:56:10 - ProcessKill 8908
+2024-06-29 03:56:10 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2024-06-29 23:37:50 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-06-29 23:37:50 - Started 8944
+2024-06-30 03:08:36 - Stopping meuservidornode.exe
+2024-06-30 03:08:36 - ProcessKill 8944
+2024-06-30 03:08:36 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2024-06-30 15:21:33 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-06-30 15:21:33 - Started 8844
+2024-07-01 03:23:40 - Stopping meuservidornode.exe
+2024-07-01 03:23:40 - ProcessKill 8844
+2024-07-01 03:23:40 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2024-07-01 17:24:45 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-07-01 17:24:45 - Started 8988
+2024-07-02 04:01:01 - Stopping meuservidornode.exe
+2024-07-02 04:01:01 - ProcessKill 8988
+2024-07-02 04:01:01 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2024-07-02 16:20:20 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-07-02 16:20:20 - Started 8472
+2024-07-02 17:05:23 - Stopping meuservidornode.exe
+2024-07-02 17:05:23 - ProcessKill 8472
+2024-07-02 17:05:23 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2024-07-02 21:20:16 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-07-02 21:20:16 - Started 8864
+2024-07-03 03:37:57 - Stopping meuservidornode.exe
+2024-07-03 03:37:57 - ProcessKill 8864
+2024-07-03 03:37:57 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2024-07-04 00:00:34 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-07-04 00:00:34 - Started 6560
+2024-07-04 01:51:59 - Stopping meuservidornode.exe
+2024-07-04 01:51:59 - ProcessKill 6560
+2024-07-04 01:52:00 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2024-07-04 16:37:44 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-07-04 16:37:44 - Started 9168
+2024-07-05 04:40:53 - Stopping meuservidornode.exe
+2024-07-05 04:40:53 - ProcessKill 9168
+2024-07-05 04:40:53 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2024-07-05 18:24:26 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-07-05 18:24:26 - Started 8984
+2024-07-06 03:09:26 - Stopping meuservidornode.exe
+2024-07-06 03:09:26 - ProcessKill 8984
+2024-07-06 03:09:26 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2024-07-07 00:20:25 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-07-07 00:20:26 - Started 8596
+2024-07-07 02:15:48 - Stopping meuservidornode.exe
+2024-07-07 02:15:48 - ProcessKill 8596
+2024-07-07 02:15:49 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2024-07-07 22:30:14 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-07-07 22:30:14 - Started 9128
+2024-07-08 03:50:20 - Stopping meuservidornode.exe
+2024-07-08 03:50:20 - ProcessKill 9128
+2024-07-08 03:50:20 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2024-07-08 22:49:35 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-07-08 22:49:35 - Started 9112
+2024-07-09 02:17:26 - Stopping meuservidornode.exe
+2024-07-09 02:17:26 - ProcessKill 9112
+2024-07-09 02:17:26 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2024-07-09 19:02:08 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-07-09 19:02:08 - Started 9048
+2024-07-10 03:21:32 - Stopping meuservidornode.exe
+2024-07-10 03:21:32 - ProcessKill 9048
+2024-07-10 03:21:33 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2024-07-10 16:43:15 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-07-10 16:43:15 - Started 8720
+2024-07-11 03:22:08 - Stopping meuservidornode.exe
+2024-07-11 03:22:08 - ProcessKill 8720
+2024-07-11 03:22:09 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2024-07-11 18:34:50 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-07-11 18:34:50 - Started 8964
+2024-07-12 01:04:32 - Stopping meuservidornode.exe
+2024-07-12 01:04:32 - ProcessKill 8964
+2024-07-12 01:04:32 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2024-07-12 19:20:27 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-07-12 19:20:28 - Started 9580
+2024-07-12 19:23:29 - Stopping meuservidornode.exe
+2024-07-12 19:23:29 - ProcessKill 9580
+2024-07-12 19:23:29 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2024-07-12 19:24:08 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-07-12 19:24:08 - Started 9260
+2024-07-13 01:52:37 - Stopping meuservidornode.exe
+2024-07-13 01:52:37 - ProcessKill 9260
+2024-07-13 01:52:37 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2024-07-14 00:22:13 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-07-14 00:22:14 - Started 9400
+2024-07-14 03:44:57 - Stopping meuservidornode.exe
+2024-07-14 03:44:57 - ProcessKill 9400
+2024-07-14 03:44:57 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2024-07-14 21:36:33 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-07-14 21:36:33 - Started 9536
+2024-07-15 02:31:59 - Stopping meuservidornode.exe
+2024-07-15 02:31:59 - ProcessKill 9536
+2024-07-15 02:32:00 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2024-07-15 19:48:17 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-07-15 19:48:17 - Started 9364
+2024-07-16 02:39:03 - Stopping meuservidornode.exe
+2024-07-16 02:39:03 - ProcessKill 9364
+2024-07-16 02:39:03 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2024-07-16 18:50:54 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-07-16 18:50:54 - Started 9596
+2024-07-17 03:21:50 - Stopping meuservidornode.exe
+2024-07-17 03:21:50 - ProcessKill 9596
+2024-07-17 03:21:50 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2024-07-17 15:48:28 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-07-17 15:48:28 - Started 9136
+2024-07-18 02:48:28 - Stopping meuservidornode.exe
+2024-07-18 02:48:28 - ProcessKill 9136
+2024-07-18 02:48:28 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2024-07-18 20:20:44 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-07-18 20:20:44 - Started 2484
+2024-07-19 01:57:46 - Stopping meuservidornode.exe
+2024-07-19 01:57:46 - ProcessKill 2484
+2024-07-19 01:57:46 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2024-07-19 14:29:19 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-07-19 14:29:19 - Started 9136
+2024-07-20 03:51:27 - Stopping meuservidornode.exe
+2024-07-20 03:51:27 - ProcessKill 9136
+2024-07-20 03:51:28 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2024-07-20 23:44:10 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-07-20 23:44:10 - Started 9400
+2024-07-21 04:46:47 - Stopping meuservidornode.exe
+2024-07-21 04:46:47 - ProcessKill 9400
+2024-07-21 04:46:47 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2024-07-21 20:03:05 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-07-21 20:03:05 - Started 9500
+2024-07-22 03:51:35 - Stopping meuservidornode.exe
+2024-07-22 03:51:35 - ProcessKill 9500
+2024-07-22 03:51:35 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2024-07-22 17:06:24 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-07-22 17:06:24 - Started 9356
+2024-07-23 03:04:20 - Stopping meuservidornode.exe
+2024-07-23 03:04:20 - ProcessKill 9356
+2024-07-23 03:04:20 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2024-07-23 18:27:11 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-07-23 18:27:11 - Started 9328
+2024-07-24 03:14:26 - Stopping meuservidornode.exe
+2024-07-24 03:14:26 - ProcessKill 9328
+2024-07-24 03:14:26 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2024-07-24 16:00:10 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-07-24 16:00:10 - Started 9744
+2024-07-25 02:13:51 - Stopping meuservidornode.exe
+2024-07-25 02:13:51 - ProcessKill 9744
+2024-07-25 02:13:52 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2024-07-25 21:35:25 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-07-25 21:35:25 - Started 9156
+2024-07-26 02:25:50 - Stopping meuservidornode.exe
+2024-07-26 02:25:50 - ProcessKill 9156
+2024-07-26 02:25:50 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2024-07-26 23:23:55 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-07-26 23:23:55 - Started 9680
+2024-07-27 03:49:19 - Stopping meuservidornode.exe
+2024-07-27 03:49:19 - ProcessKill 9680
+2024-07-27 03:49:19 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2024-07-27 14:46:06 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-07-27 14:46:06 - Started 9844
+2024-07-28 06:06:15 - Stopping meuservidornode.exe
+2024-07-28 06:06:15 - ProcessKill 9844
+2024-07-28 06:06:15 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2024-07-29 03:12:44 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-07-29 03:12:44 - Started 9656
+2024-07-29 04:07:12 - Stopping meuservidornode.exe
+2024-07-29 04:07:12 - ProcessKill 9656
+2024-07-29 04:07:12 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2024-07-29 19:28:58 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-07-29 19:28:58 - Started 9568
+2024-07-29 21:28:52 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-07-29 21:28:52 - Started 8768
+2024-07-30 03:26:28 - Stopping meuservidornode.exe
+2024-07-30 03:26:28 - ProcessKill 8768
+2024-07-30 03:26:28 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2024-07-30 14:19:46 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-07-30 14:19:46 - Started 8832
+2024-07-31 02:38:07 - Stopping meuservidornode.exe
+2024-07-31 02:38:07 - ProcessKill 8832
+2024-07-31 02:38:07 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2024-07-31 20:04:00 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-07-31 20:04:00 - Started 7416
+2024-08-01 03:39:01 - Stopping meuservidornode.exe
+2024-08-01 03:39:01 - ProcessKill 7416
+2024-08-01 03:39:01 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2024-08-01 14:33:41 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-08-01 14:33:41 - Started 9308
+2024-08-02 00:22:03 - Stopping meuservidornode.exe
+2024-08-02 00:22:03 - ProcessKill 9308
+2024-08-02 00:22:03 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2024-08-02 23:49:46 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-08-02 23:49:46 - Started 9468
+2024-08-03 01:59:34 - Stopping meuservidornode.exe
+2024-08-03 01:59:34 - ProcessKill 9468
+2024-08-03 01:59:34 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2024-08-03 16:18:37 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-08-03 16:18:37 - Started 9488
+2024-08-03 19:04:17 - Stopping meuservidornode.exe
+2024-08-03 19:04:17 - ProcessKill 9488
+2024-08-03 19:04:17 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2024-08-03 20:52:25 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-08-03 20:52:25 - Started 9132
+2024-08-03 21:08:57 - Stopping meuservidornode.exe
+2024-08-03 21:08:57 - ProcessKill 9132
+2024-08-03 21:08:57 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2024-08-03 21:43:15 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-08-03 21:43:15 - Started 9620
+2024-08-04 05:01:41 - Stopping meuservidornode.exe
+2024-08-04 05:01:41 - ProcessKill 9620
+2024-08-04 05:01:41 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2024-08-04 18:12:00 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-08-04 18:12:00 - Started 9304
+2024-08-05 01:39:30 - Stopping meuservidornode.exe
+2024-08-05 01:39:30 - ProcessKill 9304
+2024-08-05 01:39:30 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2024-08-05 15:41:27 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-08-05 15:41:27 - Started 8968
+2024-08-06 02:31:30 - Stopping meuservidornode.exe
+2024-08-06 02:31:30 - ProcessKill 8968
+2024-08-06 02:31:30 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2024-08-06 19:45:17 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-08-06 19:45:17 - Started 9252
+2024-08-07 01:06:56 - Stopping meuservidornode.exe
+2024-08-07 01:06:56 - ProcessKill 9252
+2024-08-07 01:06:57 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2024-08-07 11:01:05 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-08-07 11:01:05 - Started 9472
+2024-08-07 11:46:11 - Stopping meuservidornode.exe
+2024-08-07 11:46:11 - ProcessKill 9472
+2024-08-07 11:46:11 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2024-08-07 16:41:48 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-08-07 16:41:48 - Started 9540
+2024-08-08 01:35:12 - Stopping meuservidornode.exe
+2024-08-08 01:35:12 - ProcessKill 9540
+2024-08-08 01:35:13 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2024-08-08 18:05:43 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-08-08 18:05:43 - Started 9536
+2024-08-09 00:36:52 - Stopping meuservidornode.exe
+2024-08-09 00:36:52 - ProcessKill 9536
+2024-08-09 00:36:52 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2024-08-09 08:55:18 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-08-09 08:55:24 - Started 9208
+2024-08-09 14:25:12 - Stopping meuservidornode.exe
+2024-08-09 14:25:12 - ProcessKill 9208
+2024-08-09 14:25:12 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2024-08-09 16:10:07 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-08-09 16:10:07 - Started 8184
+2024-08-09 19:02:41 - Stopping meuservidornode.exe
+2024-08-09 19:02:41 - ProcessKill 8184
+2024-08-09 19:02:41 - Found child process: 7352 Name: conhost.exe
+2024-08-09 19:02:41 - Found child process: 8584 Name: node.exe
+2024-08-09 19:02:41 - Stopping process 7352
+2024-08-09 19:02:41 - Send SIGINT 7352
+2024-08-09 19:02:41 - SIGINT to 7352 failed - Killing as fallback
+2024-08-09 19:02:41 - Stopping process 8584
+2024-08-09 19:02:41 - Send SIGINT 8584
+2024-08-09 19:02:41 - SIGINT to 8584 failed - Killing as fallback
+2024-08-09 19:02:41 - Stopping process 8184
+2024-08-09 19:02:41 - Send SIGINT 8184
+2024-08-09 19:02:41 - SIGINT to 8184 failed - Killing as fallback
+2024-08-09 19:02:41 - Finished meuservidornode.exe
+2024-08-09 19:02:44 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\node_modules\node-windows\lib\wrapper.js --file D:\angeloProjeto\restoredHome_angular\testes\restoredHouse\servidor-node\server.js --scriptoptions= --log "MeuServidorNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-08-09 19:02:44 - Started 5152
+2024-08-09 19:14:03 - Stopping meuservidornode.exe
+2024-08-09 19:14:03 - ProcessKill 5152
+2024-08-09 19:14:03 - Found child process: 10464 Name: conhost.exe
+2024-08-09 19:14:03 - Found child process: 15256 Name: node.exe
+2024-08-09 19:14:03 - Stopping process 10464
+2024-08-09 19:14:03 - Send SIGINT 10464
+2024-08-09 19:14:03 - SIGINT to 10464 failed - Killing as fallback
+2024-08-09 19:14:03 - Stopping process 15256
+2024-08-09 19:14:03 - Send SIGINT 15256
+2024-08-09 19:14:03 - SIGINT to 15256 failed - Killing as fallback
+2024-08-09 19:14:03 - Stopping process 5152
+2024-08-09 19:14:03 - Send SIGINT 5152
+2024-08-09 19:14:03 - SIGINT to 5152 failed - Killing as fallback
+2024-08-09 19:14:03 - Finished meuservidornode.exe

@@ -41,7 +41,8 @@ import { LoginRegisterComponent } from './login-register/login-register.componen
     GerenciarFeedbackComponent,
     EditarFeedbackComponent,
     LoginComponent,
-    LoginRegisterComponent
+    LoginRegisterComponent,
+    
   ],
   imports: [
     BrowserModule,

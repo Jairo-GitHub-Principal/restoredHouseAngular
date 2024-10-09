@@ -9,6 +9,9 @@
     font-style: italic;
 
 }
+.autura{
+    height: 90vh;
+}
 
 #contato{
     display: flex;
@@ -31,4 +34,25 @@
     text-decoration: none;
     color: #ffffff;
     
+}
+
+.background-contatos{
+    background-color: #677D6A;
+    padding-bottom: 30px;
+}
+
+.color-contatos-text{
+    color: #D6BD98;
+
+}
+
+.background-contatos-card{
+    background-color: #D6BD98;;
+}
+
+@media(max-width: 600px){
+    .section-box{
+        display: flex;
+        box-sizing: border-box;
+    }
 }

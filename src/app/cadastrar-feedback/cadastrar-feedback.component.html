@@ -1,15 +1,13 @@
-<main class="row justify-content-center p-5">
-  <div class="d-grid gap-2">
-    <button class="btn btn-primary m-1" (click)="finishinSection()"> Encerrar Sessão para evitar que alguem não
-      autorizado faça mudanças em feedback</button>
-  </div>
-  <div class="d-grid gap-2" >
-    <button class="btn btn-primary m-1" routerLink="/editar-feedback" > Excluir Feedback</button>
+<main class="row justify-content-center  p-5">
+  <div class="row justify-content-center m-3">
+    <button class="btn  m-1  background-button" (click)="finishinSection()"> Encerrar Sessão</button>
+ 
+    <button class="btn  m-1  background-button" routerLink="/editar-feedback" > Excluir Feedback</button>
 </div>
-  <h1 class="text-center">Cadastrar Feedback</h1>
-  <form class=" g-3 form-control  text-center  large-cadastro-feedback">
+  <h1 class="text-center color-text-title">Cadastrar Feedback</h1>
+  <form class=" g-3 form-control  text-center  large-cadastro-feedback" style="background-color:#D6BD98;">
 
-    <h4>Informações para o card</h4>
+    <h4 class="text-color-title-form">Informações para o card</h4>
     <div class="d-grid m-1">
       <input [(ngModel)]="feedbackData.imagemcard" type="text" id="imagem" name="imagem"
         placeholder="Url da imagem do card do feedBack">
@@ -27,7 +25,7 @@
 
     <!-- a partir daqui são os dados do modal-->
 
-    <h4>Informações para o modal</h4>
+    <h4 class="text-color-title-form">Informações para o modal</h4>
     <div class="d-grid m-1">
       <input [(ngModel)]="feedbackData.titulomodal" type="text" id="tituloModal" name="tituloModal"
         placeholder="Título do Feedback no  modal">
@@ -44,6 +42,6 @@
       <input [(ngModel)]="feedbackData.urlvideo" type="text" id="link" name="link"
         placeholder="Url para encorporar video no modal">
     </div>
-    <button type="submit" (click)="cadastrarFeedback()" class="btn btn-primary m-2">Salvar Feedback</button>
+    <button type="submit" (click)="cadastrarFeedback()" class="btn background-button m-2">Salvar Feedback</button>
   </form>
 </main>

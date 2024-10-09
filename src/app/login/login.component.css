@@ -12,3 +12,15 @@
     margin-top: 10px;
   }
   
+  .background-login{
+    border: solid 1px #D6BD98 ;
+    background-color: #677D6A;
+    color:#D6BD98;
+  }
+
+  .button-login{
+    border: solid 1px #D6BD98 ;
+    width: 71%;
+    color: #D6BD98;
+    background-color:#1A3636 ;
+  }

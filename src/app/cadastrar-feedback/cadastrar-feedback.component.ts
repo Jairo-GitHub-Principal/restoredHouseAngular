@@ -27,6 +27,7 @@ export class CadastrarFeedbackComponent implements OnInit {
   }
 
   cadastrarFeedback() {
+    console.log("Dados de feedback: "+this.feedbackData);
     if (this.feedbackData) {
       this.feedbackService.enviarFeedback(this.feedbackData).subscribe(
         response => {
