@@ -32,11 +32,7 @@
 
 /* cor de fundo da pagina home*/
 
-.background-home{
-    background-color: #606676;
-    background-color: #D6BD98;
-    background-color: #677D6A;
- }
+
 
  .text-apresent-home{
     color: #D6BD98;
@@ -45,4 +41,5 @@
 
  .altura__home{
     min-height: 800px;
+    margin-top: 20px;
 }

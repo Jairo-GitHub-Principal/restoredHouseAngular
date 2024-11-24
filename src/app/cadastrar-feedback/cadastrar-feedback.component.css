@@ -29,4 +29,19 @@
     color:#677D6A;
  }
 
+ /*animação do botão de enviar dados*/
+
+ .animation {
+   
+   font-size: 18px;
+   color: white;
+   background-color:#515c52;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   outline: none;
+   overflow: hidden;
+ }
+ 
+ 
  

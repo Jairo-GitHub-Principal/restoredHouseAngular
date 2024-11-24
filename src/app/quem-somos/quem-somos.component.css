@@ -1,7 +1,24 @@
 /*fonts*/
-@import url('https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sedan+SC&display=swap');
 
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* borda do topo main*/
+.borda-top-main{
+    margin-top: 20px;
+       
+}
+
+/* Card sobre nos*/
+
+.card-sobre-nos{
+    
+    width: 35rem;
+}
 .title-sobre-nos{
     font-family: "Sedan SC", serif;
     font-weight: 400;
@@ -11,10 +28,10 @@
 }
 
 
-*{
-    padding: 0;
-    margin: 0;
-}
+
+
+
+
 .card-img-top{
     width: 100%;
     height: 200px;
@@ -69,4 +86,40 @@
     background-color: #606676; */
     /* background-color: #677D6A; */
     background-color: #D6BD98; 
+}
+
+
+/* Card fixar um tamanho fixo para o card*/
+.card-container{
+    width: 22rem;
+}
+@media (max-width: 700px) {
+    .card-container{
+        width: 18rem;
+    }
+    .card-sobre-nos{
+    
+        width: 20rem;
+    }
+}
+
+/* posicionar o botão na parte de baixo do card*/
+
+
+.container-button{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 0px;
+
+
+}
+
+.btn-for-down{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    border:none;
+
 }

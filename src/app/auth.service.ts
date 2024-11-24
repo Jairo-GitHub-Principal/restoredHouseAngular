@@ -9,12 +9,14 @@ import { Router } from '@angular/router';
 })
 export class AuthService {
   //base url para ambiente de desenvolvimento
- private baseUrl = 'http://localhost:3000';
+ //private baseUrl = 'http://localhost:3000';
 
  //url para api php hospedada no localweb
- private url = 'http://localhost/api_restoredhouse/php';
+ //private url = 'http://localhost/api_restoredhouse/php';
 
   // base url para ambiente de produção
+private url ='http://jairocesa.com.br/api_restoredhouse/php';
+
   //private baseUrl = 'http://jcwebteste.com.br:3000';// URL base do servidor Node.js
 
     // base url para ambiente de produção

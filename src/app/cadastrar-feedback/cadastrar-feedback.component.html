@@ -38,10 +38,13 @@
       <input [(ngModel)]="feedbackData.imagemcardmodalurl" type="text" id="linkImagem" name="linkImagem"
         placeholder="Url para imagem no modal">
     </div>
-    <div class="d-grid m-1">
+    <div class="d-grid m-1 ">
       <input [(ngModel)]="feedbackData.urlvideo" type="text" id="link" name="link"
         placeholder="Url para encorporar video no modal">
     </div>
-    <button type="submit" (click)="cadastrarFeedback()" class="btn background-button m-2">Salvar Feedback</button>
+    <button type="submit" id="enviar"  
+                          (click)="cadastrarFeedback()"
+                          (click)="animateButton()" 
+                          class=" btn background-button m-2 ">Salvar Feedback</button>
   </form>
 </main>

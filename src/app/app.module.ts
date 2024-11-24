@@ -14,7 +14,6 @@ import { FeedbackComponent } from './feedback/feedback.component';
 import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { WhatsAppContatoComponent } from './whats-app-contato/whats-app-contato.component';
-import { CarrocelHeaderComponent } from './carrocel-header/carrocel-header.component';
 import { CadastrarFeedbackComponent } from './cadastrar-feedback/cadastrar-feedback.component';
 import { HttpClientModule } from '@angular/common/http';
 import { GerenciarFeedbackComponent } from './gerenciar-feedback/gerenciar-feedback.component';
@@ -36,7 +35,6 @@ import { LoginRegisterComponent } from './login-register/login-register.componen
     TrabalhosComponent,
     FeedbackComponent,
     WhatsAppContatoComponent,
-    CarrocelHeaderComponent,
     CadastrarFeedbackComponent,
     GerenciarFeedbackComponent,
     EditarFeedbackComponent,

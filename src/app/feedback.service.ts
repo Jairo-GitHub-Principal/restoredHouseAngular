@@ -10,15 +10,20 @@ import { catchError, map, tap } from 'rxjs/operators';
 })
 export class FeedbackService {
   // url para api PHP localhost
-  private url = 'http://localhost:80/api_restoredhouse/php/';
+  //private url = 'http://localhost:80/api_restoredhouse/php/';
   
-  //url para api php hospedada no localweb
-  //private url = 'http://jairocesa.com.br/api_restoredhouse/php';
-  
+   
   // local host na porta 3000 no ambiente de desenvolvimento  'http://192.168.1.8:3000' ou 'http://192.168.1.8:3000'
   //private baseUrl = 'http://localhost:3000'; // URL base do servidor Node.js
-  private baseUrl = 'http://localhost:3000';
+  //private baseUrl = 'http://localhost:3000';
+
+
+
   // localhost do servidor de produção  'http://191.252.197.11:3000'
+
+  private url ='http://jairocesa.com.br/api_restoredhouse/php/';
+
+
   //  private baseUrl = "http://jcwebteste.com.br:3000";
 
    // localhos do servidor de produção 

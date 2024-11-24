@@ -55,4 +55,8 @@
         display: flex;
         box-sizing: border-box;
     }
+
+    .autura{
+       height: 100%;
+    }
 }
