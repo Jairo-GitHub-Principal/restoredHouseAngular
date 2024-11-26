@@ -1,10 +1,7 @@
 /*fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap');
 
-*{
-    padding: 0;
-    margin: 0;
-}
+
 
 .title-home{
     font-family: "Sedan SC", serif;
@@ -13,6 +10,8 @@
     font-style: italic;
 
 }
+
+
 
 .color-feedbacks-text{
     color: #D6BD98;
@@ -55,4 +54,15 @@ min-height: 800px;
 
     max-height: 500px;
     min-height: 400px;
+}
+
+
+
+/* titulo do modal*/
+
+.title__modal{ /* esse estilo vai possibilitar a quebra de linhas no titulo do modal*/
+    max-width: 90%;
+    white-space: normal; /* Permite que o texto quebre as linhas automaticamente */
+  word-wrap: break-word; /* Quebra as palavras longas, se necessário */
+  overflow-wrap: break-word; /* Compatível com navegadores modernos */
 }

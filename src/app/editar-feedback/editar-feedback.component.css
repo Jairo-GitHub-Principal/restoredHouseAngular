@@ -19,3 +19,10 @@
  .autura{
    min-height: 800px;
  }
+
+ .title__moda{ /* esse estilo vai possibilitar a quebra de linhas no titulo do modal*/
+   max-width: 90%;
+   white-space: normal; /* Permite que o texto quebre as linhas automaticamente */
+ word-wrap: break-word; /* Quebra as palavras longas, se necessário */
+ overflow-wrap: break-word; /* Compatível com navegadores modernos */
+}
