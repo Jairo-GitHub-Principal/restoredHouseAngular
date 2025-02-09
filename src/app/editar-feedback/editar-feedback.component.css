@@ -20,6 +20,17 @@
    min-height: 800px;
  }
 
+ .autura_card{
+   min-height: 500px;
+   max-height: 600px;
+ }
+
+ @media (min-width: 1024px) {
+   .container_cards{
+       min-height: 100lvh;
+   }
+}
+
  .title__moda{ /* esse estilo vai possibilitar a quebra de linhas no titulo do modal*/
    max-width: 90%;
    white-space: normal; /* Permite que o texto quebre as linhas automaticamente */
