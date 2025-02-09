@@ -2,11 +2,13 @@
 // incluir a conexão
 include("conexao.php");
 
+
 //query sql
 $sql = "SELECT * FROM feedback";
 
 //Executar a conexão e a pesquiso do sql
 $executar = mysqli_query($conexao,$sql);
+
 
 // vetor
 $feedback=[];
