@@ -10,7 +10,8 @@
 
 }
 .autura{
-    height: 90vh;
+    min-height: 100vh;
+    border:solid 5px #D6BD98;
 }
 
 #contato{
@@ -56,7 +57,11 @@
         box-sizing: border-box;
     }
 
-    .autura{
+   
+}
+
+@media(max-width: 800px){
+   .autura{
        height: 100%;
-    }
+   }
 }
