@@ -8,32 +8,22 @@ import { Router } from '@angular/router';
   providedIn: 'root'
 })
 export class AuthService {
-  //base url para ambiente de desenvolvimento
- //private baseUrl = 'http://localhost:3000';
+  //base url para ambiente de desenvolvimento usando api php 
+ //private url = 'http://localhost:80/api_restoredhouse/php';
 
- //url para api php hospedada no localweb
- //private url = 'http://localhost/api_restoredhouse/php';
+ 
+// base url ambiente de produção usando api php 
+ private url = "https://restoredhouse.com.br/api_restoredhouse/php";
+  
 
-  // base url para ambiente de produção
-private url ='http://jairocesa.com.br/api_restoredhouse/php';
 
-  //private baseUrl = 'http://jcwebteste.com.br:3000';// URL base do servidor Node.js
-
-    // base url para ambiente de produção
-  //private baseUrl = "http://jairocesar.pessoal.ws:3000";
+    
 
   private tokenKey = 'authToken';
 
   constructor(private http: HttpClient, private router:Router) {}
 
-  // metodo de cadastro para nodeJs
-  // register(nome: string, senha: string) {
-
-  //   console.log(nome,"chegando no metodo register do serviço AuthService")
-  //   const action='register';
-  //   return this.http.post<any>(`${this.baseUrl}/register`, { nome, senha});
-  // }
-
+  
     // metodo de cadastro para php
     register(nome: string, senha: string): Observable<any> {
       console.log(nome, "chegando no método register do serviço AuthService");
@@ -47,14 +37,7 @@ private url ='http://jairocesa.com.br/api_restoredhouse/php';
   }
   
 
-
-
-    // metodo login para nodeJs
-  //  login(nome: string, senha: string): Observable<any> {
-  //   console.log("chegando no metodo login de authService",nome, senha,)
-  //   const action ='login';
-  //   return this.http.post<any>(`${this.baseUrl}/login`, { nome, senha }).pipe(tap((res) => this.setToken(res.token)));
-  // }
+  
 
   //metodo login para php
   login(nome: string, senha: string): Observable<any> {

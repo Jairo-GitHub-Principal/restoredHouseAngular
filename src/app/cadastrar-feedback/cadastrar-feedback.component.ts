@@ -31,6 +31,12 @@ export class CadastrarFeedbackComponent implements OnInit {
     console.log("Dados de feedback: "+this.feedbackData);
     if (this.feedbackData) {
       if(this.feedbackData.imagemcard && this.feedbackData.imagemcardmodalurl){
+
+        // define a url base do youtube para incorporar o video
+        const baseYoutubeUrl = "https://www.youtube.com/embed/";
+        // pega a url base do youtube e concatena com o id do video e assim temos a url completa
+        this.feedbackData.urlvideo = baseYoutubeUrl + this.feedbackData.urlvideo.trim();
+
         this.feedbackService.enviarFeedback(this.feedbackData).subscribe(
           response => {
             console.log('Feedback enviado com sucesso:', response);

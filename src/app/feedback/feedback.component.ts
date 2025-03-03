@@ -3,6 +3,7 @@ import { stringify } from 'querystring';
 import { FeedbackService } from "../feedback.service";
 import { DomSanitizer } from '@angular/platform-browser';
 import { Feedback } from 'src/models/feedback.model';
+// import defaultImg from './../../assets/imgDefault/imgDefault' ;
 
 
 
@@ -30,47 +31,41 @@ export class FeedbackComponent implements OnInit {
     this.loadFeedbacks();
   }
 
-  // loadFeedbacks() {
-
-  //   console.log('Recuperando feedbacks do serviço...');
-
-  //   this.feedbackService.getAllFeedbacks().subscribe(data => {
-  //       console.log(`PHP chegou aqui${data}`)
-  //     this.feedback = data;
-  //     this.ID = this.feedback.map(item=>item.id);
-      
-  //     /**
-  //      * aqui estamos usango o DomSanitizer para desativar a proteção do angula em relaçaão 
-  //      * so dados da proppriedade urlvideo que no banco de dados, ela armazena uma url de video 
-  //      * e o angular por questão de segurança não estava permitindo que essa url fosse exibida no templete,
-  //      * essa foi a solução encontrada até agora
-  //      */
-  //     this.feedbacks.forEach(item =>{
-  //       item.urlvideo = this.sanitizer.bypassSecurityTrustResourceUrl(item.urlvideo);
-  //     })
-
-  //       },
-       
-      
-  //     error => {
-  //       console.error('Erro ao recuperar feedbacks:', error);
-  //     });
-
-      
-      
-  // }
 
   loadFeedbacks() {
 
     console.log('Recuperando feedbacks do serviço...');
 
     this.feedbackService.getAllFeedbacks().subscribe(data => {
-        console.log(`PHP chegou aqui${data}`)
+        console.log(`PHP chegou aqui no comp feedback ${data.map(item => item.imagemcard)}`)
      
         this.feedbacks = data.map(item =>{
-          item.urlvideo = this.sanitizer.bypassSecurityTrustResourceUrl(item.urlvideo);
+          // item.urlvideo = this.sanitizer.bypassSecurityTrustResourceUrl(item.urlvideo);
           this.ID = item.id;
+          console.log("imageem", item.imagemcard)
+
+          
+           // Verifica se imagemcard é inválido e define uma imagem padrão
+        if (!item.imagemcard || !item.imagemcard.startsWith('http')) {
+          item.imagemcard = './../../assets/imgDefault/imgDefault.png';
+          item.imagemcardmodalurl = './../../assets/imgDefault/imgDefault.png';                 
+        }
+
+        // verifica se a url do video é valida, caso não: define uma url de video padrão  
+          if (!item.urlvideo || !item.urlvideo.startsWith('http')) {
+            const defaultYouTubeURL  = "https://www.youtube.com/embed/d9o6HnPa2GA?si=gj0OdOuIFUX450k6"; // Coloque aqui o caminho do vídeo padrão
+            item.urlvideo = this.sanitizer.bypassSecurityTrustResourceUrl(defaultYouTubeURL);
+
+          } else {
+            // Sanitiza a URL do vídeo apenas se for válida
+            item.urlvideo = this.sanitizer.bypassSecurityTrustResourceUrl(item.urlvideo);
+          }
+  
+       
+        
          return item;
+
+
          
         })
 

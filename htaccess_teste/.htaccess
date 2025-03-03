@@ -1,0 +1,11 @@
+RewriteEngine On
+
+# Redireciona de HTTP para HTTPS (evita loop)
+RewriteCond %{HTTPS} !=on
+RewriteRule ^(.*)$ https://www.restoredhouse.com.br/$1 [R=301,L]
+
+# Permite navegação direta para páginas do SPA (sem afetar a API)
+RewriteCond %{REQUEST_URI} !^/api_restoredhouse/ [NC]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^.*$ /index.html [L,QSA]
